@@ -1,0 +1,22 @@
+.breadcrumbMenu {
+    margin: 46px 5px 41px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.breadcrumbLink {
+    color:#C4C4C4;
+    /* font-family: SFProDisplay-Bold; */
+    font-size: 15px;
+    text-decoration: none;
+}
+.breadcrumbLink:hover {
+    color: #1b9a9e;
+    text-decoration: underline;
+}
+
+.breadcrumbList:not(:last-child):after {
+    padding: 0 10px;
+    color: #C4C4C4;
+    content: ">";
+}
