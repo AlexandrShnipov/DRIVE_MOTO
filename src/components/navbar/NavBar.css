@@ -1,0 +1,19 @@
+.nav-bar {
+    width: 518px;
+}
+
+.nav-bar-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar-item {
+    list-style-type: none;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.nav-bar-link {
+    text-decoration: none;
+}

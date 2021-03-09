@@ -1,0 +1,15 @@
+.discounts {
+    width: 1170px;
+    height: 165px;
+    background-color: #1C62CD;
+    display: flex;
+    align-items: center;
+
+}
+
+.discounts-title {
+    color: #fff;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+}

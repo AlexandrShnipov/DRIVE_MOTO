@@ -3,13 +3,13 @@ import './NavBar.css';
 function NavBar() {
   return (
     <div className="nav-bar">
-      <ul>
-        <li><a href="#">запчасти</a></li>
-        <li><a href="#">моторы</a></li>
-        <li><a href="#">шины</a></li>
-        <li><a href="#">электроника</a></li>
-        <li><a href="#">инструменты</a></li>
-        <li><a href="#">аксессуары</a></li>
+      <ul className="nav-bar-items" >
+        <li className="nav-bar-item"><a className="nav-bar-link" href="#">запчасти</a></li>
+        <li className="nav-bar-item"><a className="nav-bar-link" href="#">моторы</a></li>
+        <li className="nav-bar-item"><a className="nav-bar-link" href="#">шины</a></li>
+        <li className="nav-bar-item"><a className="nav-bar-link" href="#">электроника</a></li>
+        <li className="nav-bar-item"><a className="nav-bar-link" href="#">инструменты</a></li>
+        <li className="nav-bar-item"><a className="nav-bar-link" href="#">аксессуары</a></li>
       </ul>
     </div>
   );

@@ -1,9 +1,8 @@
-
 import './Button.css';
 
-function Button({className1, name}) {
+function Button({className, name}) {
   return (
-    <button className={className1}>{name}</button>
+    <button className={className}>{name}</button>
   );
 }
 
