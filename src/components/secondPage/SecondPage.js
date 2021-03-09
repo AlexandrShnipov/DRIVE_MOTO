@@ -1,23 +1,23 @@
-import BreadcrumbListProduct from '../breadcrumbListProduct/BreadcrumbListProduct';
+import BreadcrumbProduct from '../breadcrumbProduct/BreadcrumbProduct';
 import GidroCard from '../gidroCard/GidroCard';
-import images1 from './../../assets/images/gidrotsikl-brp-seadoo-gti-130hp-se-blackmango-orange-73936232995706_small6 1.svg'
-import images2 from './../../assets/images/gidrotsikl-brp-seadoo-gti-130hp-se-blackmango-orange-73936232995706_small6 2.svg'
-import images3 from './../../assets/images/gidrotsikl-brp-seadoo-gti-130hp-se-blackmango-orange-73936232995706_small6 3.svg'
-import images4 from './../../assets/images/gidrotsikl-brp-seadoo-gti-130hp-se-blackmango-orange-73936232995706_small6 4.svg'
-import images5 from './../../assets/images/gidrotsikl-brp-seadoo-gti-130hp-se-blackmango-orange-73936232995706_small6 5.svg'
-import images6 from './../../assets/images/gidrotsikl-brp-seadoo-gti-130hp-se-blackmango-orange-73936232995706_small6 6.svg'
-import images7 from './../../assets/images/gidrotsikl-brp-seadoo-gti-130hp-se-blackmango-orange-73936232995706_small6 7.svg'
-import images8 from './../../assets/images/gidrotsikl-brp-seadoo-gti-130hp-se-blackmango-orange-73936232995706_small6 8.svg'
-import images9 from './../../assets/images/s-l225 1.svg'
-import images10 from './../../assets/images/s-l225 2.svg'
-import images11 from './../../assets/images/s-l225 3.svg'
-import images12 from './../../assets/images/s-l225 4.svg'
-import './SecondPage.css'
+import images1 from './../../assets/images/gidroCard/1.svg';
+import images2 from './../../assets/images/gidroCard/2.svg';
+import images3 from './../../assets/images/gidroCard/3.svg';
+import images4 from './../../assets/images/gidroCard/4.svg';
+import images5 from './../../assets/images/gidroCard/5.svg';
+import images6 from './../../assets/images/gidroCard/6.svg';
+import images7 from './../../assets/images/gidroCard/7.svg';
+import images8 from './../../assets/images/gidroCard/8.svg';
+import images9 from './../../assets/images/gidroCard/9.svg';
+import images10 from './../../assets/images/gidroCard/10.svg';
+import images11 from './../../assets/images/gidroCard/11.svg';
+import images12 from './../../assets/images/gidroCard/12.svg';
+import './SecondPage.css';
 
 function SecondPage (props) {
 return (
 <div className="secondPage"> 
-  <BreadcrumbListProduct/>
+  <BreadcrumbProduct/>
   <h2> Гидроциклы </h2>
   <div className="sorting"> Sortings
     </div>
