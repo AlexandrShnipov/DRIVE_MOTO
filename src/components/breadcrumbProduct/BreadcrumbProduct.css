@@ -14,9 +14,9 @@
     color: #1b9a9e;
     text-decoration: underline;
 }
-.breadcrumbList::after {
+
+.breadcrumbList:not(:last-child):after {
     padding: 0 10px;
     color: #C4C4C4;
     content: ">";
 }
-
