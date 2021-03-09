@@ -1,5 +1,5 @@
 import BreadcrumbListProduct from '../breadcrumbListProduct/BreadcrumbListProduct';
-import ProductCard from '../productCard/ProductCard';
+import GidroCard from '../gidroCard/GidroCard';
 import images1 from './../../assets/images/gidrotsikl-brp-seadoo-gti-130hp-se-blackmango-orange-73936232995706_small6 1.svg'
 import images2 from './../../assets/images/gidrotsikl-brp-seadoo-gti-130hp-se-blackmango-orange-73936232995706_small6 2.svg'
 import images3 from './../../assets/images/gidrotsikl-brp-seadoo-gti-130hp-se-blackmango-orange-73936232995706_small6 3.svg'
@@ -25,40 +25,40 @@ return (
   <div className="coptions"> Menu
   </div>
   <div className="cards">
-    <ProductCard text= "Гидроцикл BRP SeaDoo GTI 130hp SE Black\Mango"
+    <GidroCard text= "Гидроцикл BRP SeaDoo GTI 130hp SE Black\Mango"
     price="1 049 500 ₽"
     image={images1}/>
-    <ProductCard text= "Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue Metallic"
+    <GidroCard text= "Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue Metallic"
     price="1 100 475 ₽"
     image={images2}/>
-    <ProductCard text= "Гидроцикл BRP SeaDoo GTR 230hp X California green"
+    <GidroCard text= "Гидроцикл BRP SeaDoo GTR 230hp X California green"
     price="1 323 700 ₽"
     image={images3}/>
-    <ProductCard text= "Гидроцикл BRP SeaDoo GTR 230hp STD Black / Gulfstream"
+    <GidroCard text= "Гидроцикл BRP SeaDoo GTR 230hp STD Black / Gulfstream"
     price="нет в наличии Сообщить о поступлении"
     image={images4}/>
-    <ProductCard text= "Гидроцикл BRP SeaDoo GTX 300hp LTD Liquid Metal"
+    <GidroCard text= "Гидроцикл BRP SeaDoo GTX 300hp LTD Liquid Metal"
     price="1 543 000 ₽"
     image={images5}/>
-    <ProductCard text= "Гидроцикл BRP SeaDoo Spark 60hp 2 up"
+    <GidroCard text= "Гидроцикл BRP SeaDoo Spark 60hp 2 up"
     price="732 345 ₽"
     image={images6}/>
-    <ProductCard text= "Гидроцикл BRP SeaDoo Spark GTS 90hp Rental"
+    <GidroCard text= "Гидроцикл BRP SeaDoo Spark GTS 90hp Rental"
     price="857 666 ₽"
     image={images7}/>
-    <ProductCard text= "Гидроцикл BRP SeaDoo WAKE 230hp PRO Teal blue"
+    <GidroCard text= "Гидроцикл BRP SeaDoo WAKE 230hp PRO Teal blue"
     price="1 229 711 ₽"
     image={images8}/>
-    <ProductCard text= "Гидроцикл Spark 2-UP 900 Ho Ace Chili Pepper"
+    <GidroCard text= "Гидроцикл Spark 2-UP 900 Ho Ace Chili Pepper"
     price="587 440 ₽"
     image={images9}/>
-    <ProductCard text= "Гидроцикл Spark 2-UP 900 Ho Ace Pineapple"
+    <GidroCard text= "Гидроцикл Spark 2-UP 900 Ho Ace Pineapple"
     price="587 440 ₽"
     image={images10}/>
-    <ProductCard text= "Гидроцикл BRP Sea-doo Spark 2-UP 900 Ace Vanilla"
+    <GidroCard text= "Гидроцикл BRP Sea-doo Spark 2-UP 900 Ace Vanilla"
     price="нет в наличии Сообщить о поступлении"
     image={images11}/>
-    <ProductCard text= "Гидроцикл Spark 3-UP 900 HO Ace IBR Blueberry"
+    <GidroCard text= "Гидроцикл Spark 3-UP 900 HO Ace IBR Blueberry"
     price="нет в наличии Сообщить о поступлении"
     image={images12}/>
       </div>
