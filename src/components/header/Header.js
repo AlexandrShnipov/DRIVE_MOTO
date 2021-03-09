@@ -1,3 +1,4 @@
+import './Header.css';
 import HeaderLocation from "./header-location/HeaderLocation";
 import HeaderLogo from "./header-logo/HeaderLogo";
 import HeaderMenu from "./header-menu/HeaderMenu";

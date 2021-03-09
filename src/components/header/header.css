@@ -1,0 +1,8 @@
+.header-top {
+    width: 1170px;
+    height: 122px;
+    border: 1px solid rgb(196, 195, 195);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
