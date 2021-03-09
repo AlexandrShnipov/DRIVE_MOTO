@@ -1,0 +1,16 @@
+.header-nav-bar {
+    width: 1170px;
+    height: 53px;
+    border: 1px solid rgb(150, 148, 148);
+    background-color: #F0F0F4;
+}
+
+.header-nav-bar-items {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.header-nav-bar-link {
+    text-decoration: none;
+}
