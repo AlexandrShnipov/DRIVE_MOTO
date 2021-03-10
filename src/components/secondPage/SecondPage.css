@@ -11,11 +11,11 @@
 }
 .coptions {
     background-color: aquamarine;
-    width: 30%;
+    width: 10%;
 }
 
 .cards {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 45%;
 }
