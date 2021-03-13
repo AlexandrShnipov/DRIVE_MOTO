@@ -1,4 +1,5 @@
 import BreadCrumbs from '../breadCrumbs/BreadCrumbs';
+import Sidebar from './sidebar/Sidebar.jsx';
 import GidroCard from '../gidroCard/GidroCard';
 import images1 from './../../assets/images/gidroCard/1.svg';
 import images2 from './../../assets/images/gidroCard/2.svg';
@@ -24,7 +25,8 @@ return (
   <div className="sorting"> Sortings
     </div>
   <div className="categoriesProducts">
-  <div className="coptions"> Menu
+      <div className="coptions">
+        <Sidebar/>
   </div>
   <div className="cards">
     <GidroCard text= "Гидроцикл BRP SeaDoo GTI 130hp SE Black\Mango"
