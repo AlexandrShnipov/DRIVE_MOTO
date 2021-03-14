@@ -11,9 +11,13 @@
 }
 .coptions {
     background-color: aquamarine;
+    max-width: 300px;
 }
 
 .cards {
     display: flex;
     flex-wrap: wrap;
+    max-width: 870px;
+    justify-content: space-between;
 }
+
