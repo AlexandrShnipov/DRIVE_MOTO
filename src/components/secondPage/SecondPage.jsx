@@ -15,14 +15,29 @@ import images11 from './../../assets/images/gidroCard/11.svg';
 import images12 from './../../assets/images/gidroCard/12.svg';
 import heart from './../../assets/images/heart.svg';
 import './SecondPage.css';
-
+import iconMenu from './../../assets/images/gidroCard/menu_icon.svg';
+import iconBurger from './../../assets/images/gidroCard/burger_icon.svg';
 
 const SecondPage = (props) => {
 return (
 <div className="secondPage"> 
   <BreadCrumbs/>
   <h2> Гидроциклы </h2>
-  <div className="sorting"> Sortings
+  <div className="sorting">
+    <div className="sortingLeft">
+      <a class="sortingLeftMenu" href="#">Полноприводные</a>
+      <a class="sortingLeftMenu" href="#">от 5000</a>
+      <a class="sortingLeftMenu" href="#">BRP</a>
+      <a class="sortingLeftMenu" href="#">еще</a>
+    </div>
+    <div className="sortingRight">
+    <select className="sortingRightSelect">
+      <option>По полулярности</option>
+      <option>По наличию</option>
+      </select> 
+        <img className = "iconMenu" src={iconMenu}/>
+        <img className = "iconBurger" src={iconBurger}/>
+    </div>
     </div>
   <div className="categoriesProducts">
       <div className="coptions">

@@ -5,10 +5,37 @@
 .categoriesProducts {
     display: flex;
 }
-.sorting {
-    background-color: rgb(108, 172, 224);
 
+.sorting {
+    display: flex;
+    justify-content: space-between;
 }
+
+.sortingLeftMenu {
+    background: #F0F0F4;
+    border-radius: 3px;
+    padding:8px 23px;
+    text-decoration: none;
+    margin-right: 8px;
+}
+.sortingRight {
+    display: flex;
+}
+
+.sortingRightSelect {
+    /* width: 178px; */
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 14px;
+    padding-left: 20px;
+    margin-right: 34px;
+}
+
+.iconMenu {
+    margin-right: 10px;
+}
+
 .coptions {
     background-color: aquamarine;
 }
