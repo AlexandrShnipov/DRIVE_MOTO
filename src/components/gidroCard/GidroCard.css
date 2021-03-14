@@ -15,6 +15,22 @@
   margin-bottom: 30px;
 }
 
+.sale {
+  width: 63px;
+  height: 25px;
+  background: #1C62CD;
+  color: #CDCDCD;
+  /* font-family: SF Pro Display; */
+  font-size: 12px;
+  position: absolute;
+  right: 65%;
+  top: 0%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .productImg {
   width: 250px;
   height: 190px;
@@ -39,6 +55,7 @@
 .cart {
   background: #1C62CD;
   border-radius: 10px 0px 0px 0px;
+  border: none;
   width: 60px;
   height: 40px;
   position: absolute;

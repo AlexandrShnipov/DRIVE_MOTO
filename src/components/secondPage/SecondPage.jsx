@@ -34,6 +34,7 @@ return (
     price="1 049 500 ₽"
     image={images1}/>
     <GidroCard text= "Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue Metallic"
+    sale="SALE"
     heart={heart}
     price="1 100 475 ₽"
     image={images2}/>
@@ -42,6 +43,7 @@ return (
     price="1 323 700 ₽"
     image={images3}/>
     <GidroCard text= "Гидроцикл BRP SeaDoo GTR 230hp STD Black / Gulfstream"
+    sale="SALE"
     heart={heart}
     price="нет в наличии"
     absence="Сообщить о поступлении"
@@ -59,6 +61,7 @@ return (
     price="857 666 ₽"
     image={images7}/>
     <GidroCard text= "Гидроцикл BRP SeaDoo WAKE 230hp PRO Teal blue"
+    sale="SALE"
     heart={heart}
     price="1 229 711 ₽"
     image={images8}/>
@@ -71,6 +74,7 @@ return (
     price="587 440 ₽"
     image={images10}/>
     <GidroCard text= "Гидроцикл BRP Sea-doo Spark 2-UP 900 Ace Vanilla"
+    sale="SALE"
     heart={heart}
     price="нет в наличии"
     absence="Сообщить о поступлении"
