@@ -5,6 +5,7 @@ import imag from './../../assets/images/Vector.svg';
 const GidroCard = (props) => {
   return (
     <div className="gidroCard">
+      <span className = "sale">{props.sale}</span>
       <img className = "iconHeart" src={props.heart}/>
       <img className = "productImg" src={props.image}/>
       <h3 className = "productNames"> {props.text}</h3>
