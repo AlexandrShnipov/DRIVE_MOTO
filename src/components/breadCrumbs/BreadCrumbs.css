@@ -1,15 +1,18 @@
 .breadCrumbsMenu {
-    margin: 46px 5px 41px;
+    margin-top: 46px;
+    margin-bottom: 41px;
+    padding-left: 0;
     list-style: none;
     display: flex;
     justify-content: flex-start;
 }
+
 .breadCrumbsLink {
-    color:#C4C4C4;
-    /* font-family: SFProDisplay-Bold; */
+    color: #C4C4C4;
     font-size: 15px;
     text-decoration: none;
 }
+
 .breadCrumbsLink:hover {
     color: #1b9a9e;
     text-decoration: underline;

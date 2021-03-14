@@ -7,7 +7,7 @@ const BreadCrumbs = (props) => {
         <li className="breadCrumbsList"><a className="breadCrumbsLink" href="#">Главная</a></li>
         <li className="breadCrumbsList"><a className="breadCrumbsLink" href="#">Гидроциклы</a></li>
       </ul>
-      </div>
+    </div>
   );
 }
 

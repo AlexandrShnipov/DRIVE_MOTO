@@ -19,90 +19,99 @@ import iconMenu from './../../assets/images/gidroCard/menu_icon.svg';
 import iconBurger from './../../assets/images/gidroCard/burger_icon.svg';
 
 const SecondPage = (props) => {
-return (
-<div className="secondPage"> 
-  <BreadCrumbs/>
-  <h2> Гидроциклы </h2>
-  <div className="sorting">
-    <div className="sortingLeft">
-      <a class="sortingLeftMenu" href="#">Полноприводные</a>
-      <a class="sortingLeftMenu" href="#">от 5000</a>
-      <a class="sortingLeftMenu" href="#">BRP</a>
-      <a class="sortingLeftMenu" href="#">еще</a>
-    </div>
-    <div className="sortingRight">
-    <select className="sortingRightSelect">
-      <option>По полулярности</option>
-      <option>По наличию</option>
-      </select> 
-        <img className = "iconMenu" src={iconMenu}/>
-        <img className = "iconBurger" src={iconBurger}/>
-    </div>
-    </div>
-  <div className="categoriesProducts">
-      <div className="coptions">
-        <Sidebar/>
-  </div>
-  <div className="cards">
-    <GidroCard text= "Гидроцикл BRP SeaDoo GTI 130hp SE Black\Mango"
-    heart={heart}
-    price="1 049 500 ₽"
-    image={images1}/>
-    <GidroCard text= "Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue Metallic"
-    sale="SALE"
-    heart={heart}
-    price="1 100 475 ₽"
-    image={images2}/>
-    <GidroCard text= "Гидроцикл BRP SeaDoo GTR 230hp X California green"
-    heart={heart}
-    price="1 323 700 ₽"
-    image={images3}/>
-    <GidroCard text= "Гидроцикл BRP SeaDoo GTR 230hp STD Black / Gulfstream"
-    sale="SALE"
-    heart={heart}
-    price="нет в наличии"
-    absence="Сообщить о поступлении"
-    image={images4}/>
-    <GidroCard text= "Гидроцикл BRP SeaDoo GTX 300hp LTD Liquid Metal"
-    heart={heart}
-    price="1 543 000 ₽"
-    image={images5}/>
-    <GidroCard text= "Гидроцикл BRP SeaDoo Spark 60hp 2 up"
-    heart={heart}
-    price="732 345 ₽"
-    image={images6}/>
-    <GidroCard text= "Гидроцикл BRP SeaDoo Spark GTS 90hp Rental"
-    heart={heart}
-    price="857 666 ₽"
-    image={images7}/>
-    <GidroCard text= "Гидроцикл BRP SeaDoo WAKE 230hp PRO Teal blue"
-    sale="SALE"
-    heart={heart}
-    price="1 229 711 ₽"
-    image={images8}/>
-    <GidroCard text= "Гидроцикл Spark 2-UP 900 Ho Ace Chili Pepper"
-    heart={heart}
-    price="587 440 ₽"
-    image={images9}/>
-    <GidroCard text= "Гидроцикл Spark 2-UP 900 Ho Ace Pineapple"
-    heart={heart}
-    price="587 440 ₽"
-    image={images10}/>
-    <GidroCard text= "Гидроцикл BRP Sea-doo Spark 2-UP 900 Ace Vanilla"
-    sale="SALE"
-    heart={heart}
-    price="нет в наличии"
-    absence="Сообщить о поступлении"
-    image={images11}/>
-    <GidroCard text= "Гидроцикл Spark 3-UP 900 HO Ace IBR Blueberry"
-    heart={heart}
-    price="нет в наличии"
-    absence="Сообщить о поступлении"
-    image={images12}/>
+  return (
+    <div className="secondPage">
+      <BreadCrumbs />
+      <h2 className="sortingTitle"> Гидроциклы </h2>
+      <div className="sorting">
+        <div className="sortingLeft">
+          <a class="sortingLeftMenu" href="#">Полноприводные</a>
+          <a class="sortingLeftMenu" href="#">от 5000</a>
+          <a class="sortingLeftMenu" href="#">BRP</a>
+          <a class="sortingLeftMenu" href="#">еще</a>
+        </div>
+        <div className="sortingRight">
+          <select className="sortingRightSelect">
+            <option>По полулярности</option>
+            <option>По наличию</option>
+          </select>
+          <img className="iconMenu" src={iconMenu} />
+          <img className="iconBurger" src={iconBurger} />
+        </div>
       </div>
+      <div className="categoriesProducts">
+        <div className="coptions">
+          <Sidebar />
+        </div>
+        <div className="cards">
+          <GidroCard text="Гидроцикл BRP SeaDoo GTI 130hp SE Black\Mango"
+            heart={heart}
+            price="1 049 500 ₽"
+            image={images1} />
+          <GidroCard text="Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue Metallic"
+            sale="SALE"
+            heart={heart}
+            price="1 100 475 ₽"
+            image={images2} />
+          <GidroCard text="Гидроцикл BRP SeaDoo GTR 230hp X California green"
+            heart={heart}
+            price="1 323 700 ₽"
+            image={images3} />
+          <GidroCard text="Гидроцикл BRP SeaDoo GTR 230hp STD Black / Gulfstream"
+            sale="SALE"
+            heart={heart}
+            price="нет в наличии"
+            absence="Сообщить о поступлении"
+            image={images4} />
+          <GidroCard text="Гидроцикл BRP SeaDoo GTX 300hp LTD Liquid Metal"
+            heart={heart}
+            price="1 543 000 ₽"
+            image={images5} />
+          <GidroCard text="Гидроцикл BRP SeaDoo Spark 60hp 2 up"
+            heart={heart}
+            price="732 345 ₽"
+            image={images6} />
+          <GidroCard text="Гидроцикл BRP SeaDoo Spark GTS 90hp Rental"
+            heart={heart}
+            price="857 666 ₽"
+            image={images7} />
+          <GidroCard text="Гидроцикл BRP SeaDoo WAKE 230hp PRO Teal blue"
+            sale="SALE"
+            heart={heart}
+            price="1 229 711 ₽"
+            image={images8} />
+          <GidroCard text="Гидроцикл Spark 2-UP 900 Ho Ace Chili Pepper"
+            heart={heart}
+            price="587 440 ₽"
+            image={images9} />
+          <GidroCard text="Гидроцикл Spark 2-UP 900 Ho Ace Pineapple"
+            heart={heart}
+            price="587 440 ₽"
+            image={images10} />
+          <GidroCard text="Гидроцикл BRP Sea-doo Spark 2-UP 900 Ace Vanilla"
+            sale="SALE"
+            heart={heart}
+            price="нет в наличии"
+            absence="Сообщить о поступлении"
+            image={images11} />
+          <GidroCard text="Гидроцикл Spark 3-UP 900 HO Ace IBR Blueberry"
+            heart={heart}
+            price="нет в наличии"
+            absence="Сообщить о поступлении"
+            image={images12} />
+        </div>
+      </div>
+      <div class="secondPagePagination">
+        <a class="active" href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">...</a>
+        <a href="#">11</a>
       </div>
     </div>
-);
+  );
 }
 
 export default SecondPage;

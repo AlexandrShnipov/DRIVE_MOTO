@@ -1,5 +1,10 @@
 .secondPage {
     width: 1170px;
+    position: relative;
+}
+
+.sortingTitle {
+    margin-bottom: 27px;
 }
 
 .categoriesProducts {
@@ -7,6 +12,7 @@
 }
 
 .sorting {
+    margin-bottom: 47px;
     display: flex;
     justify-content: space-between;
 }
@@ -14,22 +20,22 @@
 .sortingLeftMenu {
     background: #F0F0F4;
     border-radius: 3px;
-    padding:8px 23px;
+    padding: 8px 23px;
     text-decoration: none;
     margin-right: 8px;
 }
+
 .sortingRight {
     display: flex;
 }
 
 .sortingRightSelect {
-    /* width: 178px; */
     font-size: 14px;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 14px;
     padding-left: 20px;
-    margin-right: 34px;
+    margin-right: 33px;
 }
 
 .iconMenu {
@@ -48,3 +54,20 @@
     justify-content: space-between;
 }
 
+.secondPagePagination {
+    position: absolute;
+    right: 14%;
+    bottom: -4%;
+    transform: translate(-50%);
+}
+
+.secondPagePagination a {
+    color: #C4C4C4;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.secondPagePagination a.active {
+    border: 2px solid #1C62CD;
+    color: #1C62CD;
+}
