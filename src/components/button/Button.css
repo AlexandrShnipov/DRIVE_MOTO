@@ -7,6 +7,7 @@
     font-size: 14px;
     font-weight: bold;
     line-height: 17px;
+    outline: transparent;
 }
 
 .button-grey {
@@ -16,6 +17,7 @@
     font-weight: normal;
     font-size: 15px;
     line-height: 18px;
+    outline: transparent;
 }
 
 .button-white {
@@ -24,6 +26,7 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 50px;
+    outline: transparent;
 }
 
 
