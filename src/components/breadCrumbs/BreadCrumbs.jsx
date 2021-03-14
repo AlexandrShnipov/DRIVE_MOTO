@@ -1,6 +1,6 @@
 import './BreadCrumbs.css';
 
-function BreadCrumbs () {
+const BreadCrumbs = (props) => {
   return (
     <div className="breadCrumbs">
       <ul className="breadCrumbsMenu">

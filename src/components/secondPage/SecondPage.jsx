@@ -17,7 +17,7 @@ import heart from './../../assets/images/heart.svg';
 import './SecondPage.css';
 
 
-function SecondPage (props) {
+const SecondPage = (props) => {
 return (
 <div className="secondPage"> 
   <BreadCrumbs/>
@@ -43,7 +43,8 @@ return (
     image={images3}/>
     <GidroCard text= "Гидроцикл BRP SeaDoo GTR 230hp STD Black / Gulfstream"
     heart={heart}
-    price="нет в наличии Сообщить о поступлении"
+    price="нет в наличии"
+    absence="Сообщить о поступлении"
     image={images4}/>
     <GidroCard text= "Гидроцикл BRP SeaDoo GTX 300hp LTD Liquid Metal"
     heart={heart}
@@ -71,11 +72,13 @@ return (
     image={images10}/>
     <GidroCard text= "Гидроцикл BRP Sea-doo Spark 2-UP 900 Ace Vanilla"
     heart={heart}
-    price="нет в наличии Сообщить о поступлении"
+    price="нет в наличии"
+    absence="Сообщить о поступлении"
     image={images11}/>
     <GidroCard text= "Гидроцикл Spark 3-UP 900 HO Ace IBR Blueberry"
     heart={heart}
-    price="нет в наличии Сообщить о поступлении"
+    price="нет в наличии"
+    absence="Сообщить о поступлении"
     image={images12}/>
       </div>
       </div>
