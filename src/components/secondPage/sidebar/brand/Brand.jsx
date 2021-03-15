@@ -1,31 +1,37 @@
 import './Brand.css';
+import SidebarItem from './../sidebarItem/SidebarItem';
 
 const Brand = () => {
   return (
-    <div className='brand parametr'>
+<SidebarItem title='Бренд'>
 
-      <details className='brandBlock parametrBlock'>
+</SidebarItem>
 
-        <summary className='brandTitle parametrTitle'>
-          Бренд
-        </summary>
 
-        <form className='brandList parametrList'>
-          <input id='BRP' type="checkbox" checked name="BrandList1" value='BRP' />
-          <label htmlFor="BRP">BRP</label>
+    // <div className='brand parametr'>
 
-          <input id='Spark 2' type="checkbox" checked name="BrandList2" value='Spark 2' />
-          <label htmlFor="Spark 2"> Spark 2</label>
+    //   <details className='brandBlock parametrBlock'>
 
-          <input id='Spark 3 ' type="checkbox" name="BrandList3" value='Spark 3 ' />
-          <label htmlFor="Spark 3 ">Spark 3 </label>
-        </form>
+    //     <summary className='brandTitle parametrTitle'>
+    //       Бренд
+    //     </summary>
 
-        <a href="#">Показать еще</a>
+    //     <form className='brandList parametrList'>
+    //       <input id='BRP' type="checkbox" checked name="BrandList1" value='BRP' />
+    //       <label htmlFor="BRP">BRP</label>
 
-      </details>
+    //       <input id='Spark 2' type="checkbox" checked name="BrandList2" value='Spark 2' />
+    //       <label htmlFor="Spark 2"> Spark 2</label>
 
-    </div >
+    //       <input id='Spark 3 ' type="checkbox" name="BrandList3" value='Spark 3 ' />
+    //       <label htmlFor="Spark 3 ">Spark 3 </label>
+    //     </form>
+
+    //     <a href="#">Показать еще</a>
+
+    //   </details>
+
+    // </div >
   )
 }
 

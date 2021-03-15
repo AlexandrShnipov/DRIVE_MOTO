@@ -9,6 +9,7 @@ import Brand from './brand/Brand';
 import Model from './model/Model';
 import Promotions from './promotions/Promotions';
 import Country from './country/Country';
+import SidebarItem from './sidebarItem/SidebarItem';
 
 
 

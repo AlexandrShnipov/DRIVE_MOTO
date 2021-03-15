@@ -1,22 +1,25 @@
-import './Existence.css';
+import './Existence.css'
+import SidebarItem from './../sidebarItem/SidebarItem'
+import RadioInput from './../RadioInput/RadioInput'
 
 const Existence = () => {
   return (
-    <div className='existence parametr'>
-      <details className='existenceBlock parametrBlock'>
-        <summary className='existenceTitle parametrTitle'>
-          Наличие
-          </summary>
-        <form className='existenceList parametrList'>
-          <input id='inStock' type="checkbox" name="ExistenceList1" value='inStock' />
-          <label htmlFor="inStock">В наличие</label>
+    <SidebarItem title='Наличие'>
+      <form className='existenceList'>
+        <RadioInput
+          value={'inStock'}
+          name={'existence1'}
+          text={'В наличие'}
+        />
 
-          <input id='order' type="checkbox" name="ExistenceList2" value='order' />
-          <label htmlFor="order">Под заказ</label>
-        </form>
-      </details>
-    </div>
-  )
+        <RadioInput
+          value={'order'}
+          name={'existence2'}
+          text={'Под заказ'}
+        />
+      </form>
+        </SidebarItem>
+      )
 }
 
 

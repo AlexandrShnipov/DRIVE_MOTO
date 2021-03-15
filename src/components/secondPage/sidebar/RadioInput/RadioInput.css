@@ -1,0 +1,14 @@
+
+.radioInput{
+  margin: 0;
+  margin-right: 12px;
+}
+
+.radioInputText{
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #2F3035;
+}

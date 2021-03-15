@@ -1,24 +1,31 @@
 import './Novelty.css';
+import SidebarItem from './../sidebarItem/SidebarItem'
+import RadioInput from './../RadioInput/RadioInput';
+
 
 const Novelty = () => {
   return (
-    <div className='novelty parametr'>
-      <details className='noveltyBlock parametrBlock'>
-        <summary className='noveltyTitle parametrTitle'>
-          Новинки
-        </summary>
-        <form className='noveltyList parametrList'>
-          <input id='all' type="checkbox" checked name="ExistenceList1" value='all' />
-          <label htmlFor="all">Все</label>
+    <SidebarItem title='Новинки'>
+      <form className='existenceList'>
+        <RadioInput
+          value={'all'}
+          name={'novelty1'}
+          text={'Все'}
+        />
 
-          <input id='novelty' type="checkbox" name="ExistenceList2" value='order' />
-          <label htmlFor="novelty"> Новинки</label>
+        <RadioInput
+          value={'novelty'}
+          name={'novelty2'}
+          text={'Новинки'}
+        />
 
-          <input id='stock' type="checkbox" name="ExistenceList3" value='stock' />
-          <label htmlFor="stock">Акции</label>
-        </form>
-      </details>
-    </div >
+        <RadioInput
+          value={'stock'}
+          name={'novelty3'}
+          text={'Акции'}
+        />
+      </form>
+    </SidebarItem>
   )
 }
 

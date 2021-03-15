@@ -1,23 +1,28 @@
 import './Promotions'
+import SidebarItem from './../sidebarItem/SidebarItem'
 
 const Promotions = () => {
   return (
-    <div className='promotions parametr'>
+    <SidebarItem title='Акции'>
 
-      <details className='promotionsBlock parametrBlock'>
-        <summary className='promotionsTitle parametrTitle'>
-          Акции
-                  </summary>
+    </SidebarItem>
 
-        <div className='promotionsBtn Btn'>
-          <button>SALE</button>
-          <button>NEW</button>
-          <button>HIT</button>
-          <button>ДИЛЕР</button>
+    // <div className='promotions parametr'>
 
-        </div>
-      </details>
-    </div>
+    //   <details className='promotionsBlock parametrBlock'>
+    //     <summary className='promotionsTitle parametrTitle'>
+    //       Акции
+    //               </summary>
+
+    //     <div className='promotionsBtn Btn'>
+    //       <button>SALE</button>
+    //       <button>NEW</button>
+    //       <button>HIT</button>
+    //       <button>ДИЛЕР</button>
+
+    //     </div>
+    //   </details>
+    // </div>
   )
 }
 
