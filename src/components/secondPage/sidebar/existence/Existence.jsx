@@ -1,11 +1,11 @@
-import './Existence.css'
-import SidebarItem from './../sidebarItem/SidebarItem'
-import RadioInput from './../RadioInput/RadioInput'
+import s from './Existence.module.scss';
+import SidebarItem from './../sidebarItem/SidebarItem';
+import RadioInput from './../RadioInput/RadioInput';
 
 const Existence = () => {
   return (
     <SidebarItem title='Наличие'>
-      <form className='existenceList'>
+      <form className={s.existenceList}>
         <RadioInput
           value={'inStock'}
           name={'existence1'}

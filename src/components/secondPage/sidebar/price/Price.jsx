@@ -1,4 +1,4 @@
-import './Price.css';
+import s from './Price.module.scss';
 import SidebarItem from './../sidebarItem/SidebarItem';
 
 const Price = () => {

@@ -25,10 +25,10 @@ const SecondPage = (props) => {
       <h2 className={s.sortingTitle}> Гидроциклы </h2>
       <div className={s.sorting}>
         <div className={s.sortingLeft}>
-          <a class={s.sortingLeftMenu} href="#">Полноприводные</a>
-          <a class={s.sortingLeftMenu} href="#">от 5000</a>
-          <a class={s.sortingLeftMenu} href="#">BRP</a>
-          <a class={s.sortingLeftMenu} href="#">еще</a>
+          <a className={s.sortingLeftMenu} href="#">Полноприводные</a>
+          <a className={s.sortingLeftMenu} href="#">от 5000</a>
+          <a className={s.sortingLeftMenu} href="#">BRP</a>
+          <a className={s.sortingLeftMenu} href="#">еще</a>
         </div>
         <div className={s.sortingRight}>
           <select className={s.sortingRightSelect}>

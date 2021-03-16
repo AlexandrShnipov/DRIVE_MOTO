@@ -1,5 +1,5 @@
-import './Country.css';
-import SidebarItem from './../sidebarItem/SidebarItem'
+import s from './Country.module.scss';
+import SidebarItem from './../sidebarItem/SidebarItem';
 
 
 const Country = () => {

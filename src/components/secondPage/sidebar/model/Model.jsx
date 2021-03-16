@@ -1,4 +1,4 @@
-import './Model.css'
+import s from './Model.module.scss'
 import SidebarItem from './../sidebarItem/SidebarItem'
 
 const Model = () => {

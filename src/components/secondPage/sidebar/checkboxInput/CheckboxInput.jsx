@@ -1,4 +1,4 @@
-import './CheckboxInput.css';
+import s from './CheckboxInput.module.scss';
 
 const CheckboxInput = (props) => {
   return (

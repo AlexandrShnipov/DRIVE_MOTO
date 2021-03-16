@@ -1,4 +1,4 @@
-import './Promotions'
+import s from './Promotions.module.scss'
 import SidebarItem from './../sidebarItem/SidebarItem'
 
 const Promotions = () => {

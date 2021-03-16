@@ -1,12 +1,12 @@
-import './Novelty.css';
-import SidebarItem from './../sidebarItem/SidebarItem'
+import s from './Novelty.module.scss';
+import SidebarItem from './../sidebarItem/SidebarItem';
 import RadioInput from './../RadioInput/RadioInput';
 
 
 const Novelty = () => {
   return (
     <SidebarItem title='Новинки'>
-      <form className='existenceList'>
+      <form className={s.existenceList}>
         <RadioInput
           value={'all'}
           name={'novelty1'}

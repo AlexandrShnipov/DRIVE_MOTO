@@ -1,4 +1,4 @@
-import './Brand.css';
+import s from './Brand.module.scss';
 import SidebarItem from './../sidebarItem/SidebarItem';
 
 const Brand = () => {
