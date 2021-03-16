@@ -5,6 +5,11 @@
 
 .categoriesProducts {
     display: flex;
+    position: relative;
+}
+
+.sortingTitle {
+    margin-bottom: 27px;
 }
 
 .sorting {
@@ -38,15 +43,19 @@
     margin-right: 10px;
 }
 
+.categoriesProducts {
+    display: flex;
+}
+
 .coptions {
     background-color: aquamarine;
-    max-width: 300px;
+    width: 26%;
 }
 
 .cards {
     display: flex;
     flex-wrap: wrap;
-    max-width: 870px;
+    width: 74%;
     justify-content: space-between;
 }
 

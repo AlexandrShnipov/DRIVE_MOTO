@@ -1,11 +1,11 @@
-import './BreadCrumbs.css';
+import s from './BreadCrumbs.module.scss';
 
 const BreadCrumbs = (props) => {
   return (
-    <div className="breadCrumbs">
-      <ul className="breadCrumbsMenu">
-        <li className="breadCrumbsList"><a className="breadCrumbsLink" href="#">Главная</a></li>
-        <li className="breadCrumbsList"><a className="breadCrumbsLink" href="#">Гидроциклы</a></li>
+    <div className={s.breadCrumbs}>
+      <ul className={s.breadCrumbsMenu}>
+        <li className={s.breadCrumbsList}><a className={s.breadCrumbsLink} href="#">Главная</a></li>
+        <li className={s.breadCrumbsList}><a className={s.breadCrumbsLink} href="#">Гидроциклы</a></li>
       </ul>
     </div>
   );

@@ -1,0 +1,71 @@
+.sidebarLinks{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 41px;
+  max-width: 246px;
+  justify-content: space-between;
+  padding-bottom: 7px;
+  }
+
+.sidebarLink{
+  text-decoration: none;
+  font-family: SF Pro Display;
+   font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+    color: #C4C4C4;
+    padding-bottom: 7px;
+    border-bottom: 2px solid transparent;
+}
+
+.sidebarLink:hover,
+.sidebarLink:active{
+  border-bottom: 2px solid #1C62CD;
+  font-weight: bold;
+  color: #2F3035;
+}
+
+.ButtonsFooter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnFooter:nth-child(-n+2){
+  margin-bottom: 10px;
+}
+
+.btnSelect{
+  font-family: SF Pro Display;
+font-size: 15px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+color: #BDBEC2;
+padding: 16px 85px;
+border: none;
+}
+
+.btnMore{
+  font-family: SF Pro Display;
+font-size: 13px;
+line-height: 1.33;
+color: #2F3035;
+padding: 5px 31px;
+background: url('./../../../assets/images/sidebar/arrow_bottom.svg') no-repeat right   2px top 11px;
+border: none;
+background-color: transparent;
+}
+
+.btnReset{
+  font-family: SF Pro Display;
+font-size: 13px;
+line-height: 1.33;
+color: #C4C4C4;
+padding-bottom: 1px;
+border: none;
+border-bottom: 1px solid #C4C4C4;
+background-color: transparent;
+}
