@@ -1,29 +1,15 @@
 import React from 'react';
 import './App.css';
-<<<<<<< Updated upstream
+import SecondPage from './components/secondPage/SecondPage';
 import Header from './components/header/Header';
-import SecondPage from './components/secondPage/SecondPage.jsx';
-=======
-import Header from './components/header/'
-import Footer from './components/footer/Footer'
->>>>>>> Stashed changes
-
-
-
-
+import Footer from './components/footer/Footer';
 
 function App() {
   return ( 
     <div className="App" >
-<<<<<<< Updated upstream
-<Header/>
-      <SecondPage />
-=======
       <Header/>
+      <SecondPage/>
       <Footer/>
-    
->>>>>>> Stashed changes
-
     </div>
   );
 }

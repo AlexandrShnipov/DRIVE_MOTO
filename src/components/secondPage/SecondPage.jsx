@@ -1,5 +1,5 @@
 import BreadCrumbs from '../breadCrumbs/BreadCrumbs';
-import Sidebar from './sidebar/Sidebar.jsx';
+import Sidebar from './sidebar/Sidebar';
 import Card from '../card/Card';
 import images1 from './../../assets/images/gidroCard/1.svg';
 import images2 from './../../assets/images/gidroCard/2.svg';
