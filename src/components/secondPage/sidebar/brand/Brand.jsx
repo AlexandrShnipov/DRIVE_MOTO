@@ -1,10 +1,16 @@
 import './Brand.css';
 import SidebarItem from './../sidebarItem/SidebarItem';
+import CheckboxInput from './../checkboxInput/CheckboxInput';
 
 const Brand = () => {
   return (
 <SidebarItem title='Бренд'>
-
+      <form className='brandList' action="#">
+        <CheckboxInput
+          value={'BRP'}
+          name={'brand1'}
+          text={'BRP'}/>
+</form>
 </SidebarItem>
 
 
