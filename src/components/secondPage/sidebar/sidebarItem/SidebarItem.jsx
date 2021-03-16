@@ -1,4 +1,4 @@
-import s from './SidebarItem.module.css';
+import s from './SidebarItem.module.scss';
 
 const SidebarItem = (props) => {
 return (
