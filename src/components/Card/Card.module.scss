@@ -1,4 +1,4 @@
-.gidroCard {
+.Card {
   border: 1px solid #CDCDCD;
   box-sizing: border-box;
   border-radius: 3px;
@@ -11,7 +11,7 @@
   position: relative;
 }
 
-.gidroCard:nth-child(-n+9) {
+.Card:nth-child(-n+9) {
   margin-bottom: 30px;
 }
 
@@ -20,7 +20,6 @@
   height: 25px;
   background: #1C62CD;
   color: #CDCDCD;
-  /* font-family: SF Pro Display; */
   font-size: 12px;
   position: absolute;
   right: 65%;
@@ -43,6 +42,7 @@
 
 .priceProducts {
   font-size: 30px;
+  font-weight: 700;
 }
 
 .iconHeart {
@@ -52,7 +52,7 @@
   transform: translate(-50%);
 }
 
-.cart {
+.btnCart {
   background: #1C62CD;
   border-radius: 10px 0px 0px 0px;
   border: none;

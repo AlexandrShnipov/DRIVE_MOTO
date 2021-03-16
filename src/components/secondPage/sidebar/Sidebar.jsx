@@ -10,20 +10,20 @@ import Model from './model/Model';
 import Promotions from './promotions/Promotions';
 import Country from './country/Country';
 import SidebarItem from './sidebarItem/SidebarItem';
-
+import s from './Sidebar.module.scss';
 
 
 
 const Sidebar = () => {
   return (
-    <div className='sidebar'>
+    <div className={s.sidebar}>
 
-      <div className='sidebarLinks'>
-        <a className='sidebarLink' href="#">параметры</a>
-        <a className='sidebarLink' href="#">по марке</a>
+      <div className={s.sidebarLinks}>
+        <a className={s.sidebarLink} href="#">параметры</a>
+        <a className={s.sidebarLink} href="#">по марке</a>
       </div>
 
-      <div className='parameters'>
+      <div className={s.parameters}>
         <Existence />
         <Novelty />
         <Price />
@@ -36,17 +36,17 @@ const Sidebar = () => {
         <Country />
 
 
-        <div className='sidebarButtons'>
-          <button className='btnSelect' type='submit'>
-            <span className='btnSelectText'> ВЫБРАТЬ</span>
+        <div className={s.sidebarButtons}>
+          <button className={s.btnSelect} type='submit'>
+            <span className={s.btnSelectText}> ВЫБРАТЬ</span>
           </button>
 
-          <button className='btnMore' type='button'>
-            <span className='btnMoreText'>Дополнительные параметры</span>
+          <button className={s.btnMore} type='button'>
+            <span className={s.btnMoreText}>Дополнительные параметры</span>
           </button>
 
-          <button className='btnSubmit' type='reset'>
-            <span className='btnSubmitText'>Сбросить фильтр</span>
+          <button className={s.btnSubmit} type='reset'>
+            <span className={s.btnSubmitText}>Сбросить фильтр</span>
           </button>
         </div>
 
