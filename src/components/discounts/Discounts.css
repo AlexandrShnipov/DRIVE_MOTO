@@ -1,9 +1,11 @@
 .discounts {
-    width: 1170px;
+    max-width: 1170px;
     height: 165px;
     background-color: #1C62CD;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    padding-right: 123px ;
 
 }
 

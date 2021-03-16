@@ -1,0 +1,8 @@
+.social-items {
+    display: flex;
+
+}
+
+.social-item {
+    list-style-type: none;
+}

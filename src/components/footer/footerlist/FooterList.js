@@ -1,15 +1,17 @@
 import './FooterList.css';
 
-function FooterList({title}) {
+function FooterList({title, items}) {
+  const itemsList = items.map (item => 
+    <li className="footer-item">
+      <a className="footer-link" href={item.url}>{item.text}</a>
+    </li>)
+
   return (
-    <div className="footer__information">
-      <h3 className="footer__information title-footer">{title}</h3>
-      <ul className="footerlist">
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-    </ul>
+    <div className="footer-information">
+      <h3 className="footer-information title-footer">{title}</h3>
+      <ul className="footer-items">
+        {itemsList}
+      </ul>
     </div>
   );
 }
