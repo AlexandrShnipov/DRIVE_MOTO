@@ -1,6 +1,6 @@
 import BreadCrumbs from '../breadCrumbs/BreadCrumbs';
 import Sidebar from './sidebar/Sidebar.jsx';
-import Card from './../Card/Card';
+import Card from '../card/Card';
 import images1 from './../../assets/images/gidroCard/1.svg';
 import images2 from './../../assets/images/gidroCard/2.svg';
 import images3 from './../../assets/images/gidroCard/3.svg';
@@ -60,7 +60,7 @@ const SecondPage = (props) => {
           <Card text="Гидроцикл BRP SeaDoo GTR 230hp STD Black / Gulfstream"
             sale="SALE"
             heart={heart}
-            price="нет в наличии"
+            not="нет в наличии"
             absence="Сообщить о поступлении"
             image={images4} />
           <Card text="Гидроцикл BRP SeaDoo GTX 300hp LTD Liquid Metal"
@@ -91,12 +91,12 @@ const SecondPage = (props) => {
           <Card text="Гидроцикл BRP Sea-doo Spark 2-UP 900 Ace Vanilla"
             sale="SALE"
             heart={heart}
-            price="нет в наличии"
+            not="нет в наличии"
             absence="Сообщить о поступлении"
             image={images11} />
           <Card text="Гидроцикл Spark 3-UP 900 HO Ace IBR Blueberry"
             heart={heart}
-            price="нет в наличии"
+            not="нет в наличии"
             absence="Сообщить о поступлении"
             image={images12} />
         </div>

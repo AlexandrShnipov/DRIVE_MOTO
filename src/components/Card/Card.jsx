@@ -10,6 +10,7 @@ const Card = (props) => {
       <img className = {s.productImg} src={props.image}/>
       <h3 className = {s.productNames}> {props.text}</h3>
       <span className = {s.priceProducts}> {props.price}</span>
+      <span className = {s.not}>{props.not}</span>
       <a className={s.absence} href="#">{props.absence}</a>
       <button className = {s.btnCart}><img src={imag}/></button>
       </div>
