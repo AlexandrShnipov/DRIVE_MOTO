@@ -1,6 +1,6 @@
 import BreadCrumbs from '../breadCrumbs/BreadCrumbs';
 import Sidebar from './sidebar/Sidebar';
-import Card from '../card/Card';
+import Card from './../card/Card';
 import images1 from './../../assets/images/gidroCard/1.svg';
 import images2 from './../../assets/images/gidroCard/2.svg';
 import images3 from './../../assets/images/gidroCard/3.svg';
