@@ -1,7 +1,7 @@
-import s from './Sidebar.module.scss'
-import SidebarItem from './sidebarItem/SidebarItem'
-import RadioInput from './radioInput/RadioInput'
-import CheckboxInput from './checkboxInput/CheckboxInput'
+import s from './Sidebar.module.scss';
+import SidebarItem from './sidebarItem/SidebarItem';
+import RadioInput from './radioInput/RadioInput';
+import CheckboxInput from './checkboxInput/CheckboxInput';
 
 
 const Sidebar = () => {
@@ -72,7 +72,7 @@ const Sidebar = () => {
 
         {/* Power */}
 
-        <div className='power parametr'>
+        {/* <div className='power parametr'>
           <h3 className='powerTitle parametrTitle'>Мощность, л.с.</h3>
 
           <select className='powerBlock parametrBlock' name='power'>
@@ -82,11 +82,11 @@ const Sidebar = () => {
             <option className='powerBlockItem parametrItem' value="230">230</option>
             <option className='powerBlockItem parametrItem' value="300">300</option>
           </select>
-        </div>
+        </div> */}
 
         {/* EnginePower */}
 
-        <div className='enginePower parametr'>
+        {/* <div className='enginePower parametr'>
           <h3 className='enginePowerTitle parametrTitle'>Мощность двигателя, л.с.</h3>
           <select className='enginePowerBlock parametrBlock' name='power'>
             <option className='enginePowerItem parametrItem' selected value="90">90</option>
@@ -95,11 +95,11 @@ const Sidebar = () => {
             <option className='enginePowerItem parametrItem' value="230">230</option>
             <option className='enginePowerItem parametrItem' value="300">300</option>
           </select>
-        </div>
+        </div> */}
 
         {/* Speed */}
 
-        <div className='speed parametr'>
+        {/* <div className='speed parametr'>
           <h3 className='speedTitle parametrTitle'>Макс. скорость</h3>
           <select className='speedBlock parametrBlock' name='speed'>
             <option className='speedItem parametrItem' selected value="90">90</option>
@@ -108,12 +108,12 @@ const Sidebar = () => {
             <option className='speedItem parametrItem' value="230">230</option>
             <option className='speedItem parametrItem' value="300">300</option>
           </select>
-        </div>
+        </div> */}
 
         {/* Brand */}
 
         <SidebarItem title='Бренд'>
-          <form className='brandList' action="#">
+          <form className={s.brandList} action="#">
             <CheckboxInput
               value={'BRP'}
               name={'brand1'}
@@ -170,11 +170,11 @@ const Sidebar = () => {
         {/* Promotions */}
 
         <SidebarItem title='Акции'>
-          <div className='promotionsBtnBlock'>
-            <button className='promotionsBtn'>SALE</button>
-            <button className='promotionsBtn'>NEW</button>
-            <button className='promotionsBtn'>HIT</button>
-            <button className='promotionsBtn'>ДИЛЕР</button>
+          <div className={s.promotionsBtnBlock}>
+            <button className={s.promotionsBtn}>SALE</button>
+            <button className={s.promotionsBtn}>NEW</button>
+            <button className={s.promotionsBtn}>HIT</button>
+            <button className={s.promotionsBtn}>ДИЛЕР</button>
 
           </div>
         </SidebarItem>

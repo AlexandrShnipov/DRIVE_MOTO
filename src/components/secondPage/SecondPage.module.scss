@@ -1,11 +1,11 @@
 .secondPage {
     width: 1170px;
-   
+    margin-bottom: 208px;
 }
 
 .categoriesProducts {
     display: flex;
-    position: relative;
+    
 }
 
 .sortingTitle {
@@ -49,11 +49,11 @@
 }
 
 .coptions {
-    background-color: aquamarine;
     width: 26%;
 }
 
 .cards {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     width: 74%;
@@ -62,8 +62,8 @@
 
 .secondPagePagination {
     position: absolute;
-    right: 14%;
-    bottom: -4%;
+    right: 47%;
+    top: 195%;
     transform: translate(-50%);
 }
 

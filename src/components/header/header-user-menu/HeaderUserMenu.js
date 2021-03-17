@@ -1,5 +1,5 @@
 import './HeaderUserMenu.css';
-import Icon from "./../../icon/Icon";
+import Icon from "./../../Icon/Icon";
 import heart from './../../../assets/images/heart.svg';
 import user from './../../../assets/images/user.svg';
 import cart from './../../../assets/images/cart.svg';
