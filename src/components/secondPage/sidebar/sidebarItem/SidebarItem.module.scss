@@ -19,3 +19,30 @@ outline: transparent;
 margin-top: 19px;
 margin-right: 68px;
 }
+
+.sidebarItemTitle{
+  list-style: none;
+  padding-left: 26px;
+}
+
+.sidebarItem{
+  position: relative;
+}
+
+.sidebarItem .sidebarItemTitle:before{
+content: '';
+background-image: url('./../../../../assets/images/sidebar/arrow_right.svg');
+position: absolute;
+background-repeat: no-repeat;
+width: 100%;
+height: 15px;
+top: 5px;
+left: 0;
+margin-right: 10px;
+}
+
+.sidebarItem[open] .sidebarItemTitle:before{
+  content: '';
+  background-image: url('./../../../../assets/images/sidebar/arrow_bottom.svg');
+  top: 8px;
+}

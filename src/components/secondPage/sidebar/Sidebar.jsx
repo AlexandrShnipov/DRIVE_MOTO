@@ -41,7 +41,7 @@ const Sidebar = () => {
               value={'all'}
               name={'novelty1'}
               text={'Все'}
-            />
+                     />
 
             <RadioInput
               value={'novelty'}
