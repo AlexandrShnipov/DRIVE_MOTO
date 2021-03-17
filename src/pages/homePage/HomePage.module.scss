@@ -1,0 +1,22 @@
+.homePage {
+    display:flex;
+    flex-direction: column;
+    .homeWrap {
+        max-width: 1170px;
+        margin: 0 auto;
+        .homeWrapper {
+            display:flex;
+        }
+    }
+    .homeBox {
+        display:flex;
+        flex-wrap: wrap;
+        margin-top: 80px;
+    }
+}
+
+
+
+
+
+
