@@ -8,8 +8,23 @@
   overflow: hidden;
   position: absolute;
   clip: rect(0 0 0 0);
-   margin-left: 12px;
+   margin-left: 26px;
 }
+
+.radioStyle{
+  display: inline-block;
+  background-image: url('./../../../../assets/images/sidebar/input.svg');
+  width: 14px;
+  height: 14px;
+  position: absolute;
+ bottom: 2px;
+ margin-left: -26px;
+   }
+
+   .radioInput:checked + .radioStyle{
+     display: inline-block;
+     background-image: url('./../../../../assets/images/sidebar/radio_activ.svg');
+   }
 
 
 .radioInputText{
@@ -23,16 +38,6 @@
   margin-left: 26px;
 }
 
-.radioStyle{
-  display: inline-block;
-  background-image: url('./../../../../assets/images/sidebar/input.svg');
-  width: 14px;
-  height: 14px;
-  position: absolute;
- bottom: 2px;
-   }
 
-   .radioInput:checked + .radioStyle{
-     display: inline-block;
-     background-image: url('./../../../../assets/images/sidebar/radio_activ.svg');
-   }
+
+

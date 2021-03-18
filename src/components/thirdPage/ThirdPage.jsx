@@ -3,6 +3,7 @@ import BreadCrumbs from '../breadCrumbs/BreadCrumbs';
 import imagesBig from './../../assets/images/gidroCard/imagesBigGidro2.svg';
 import heart from './../../assets/images/heart.svg';
 import rating from './../../assets/images/gidroCard/Group.svg';
+import ShowMore from  './../showMore/ShowMore'
 
 const ThirdPage = (props) => {
 return (
@@ -26,8 +27,12 @@ return (
     <span> Код товара: <span>366666-2</span></span>
     <div>
     <img className = {s.imgHeart} src={heart}/>
-    <img className = {s.imgRating} src={rating}/>
-    <btn className = {s.btnCart}>купить</btn>
+                    <img className={s.imgRating} src={rating} />
+                    
+<ShowMore/>
+                    
+
+     
     </div>
     </div>
 </div>

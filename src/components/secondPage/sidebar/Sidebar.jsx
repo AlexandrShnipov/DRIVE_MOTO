@@ -2,6 +2,7 @@ import s from './Sidebar.module.scss';
 import SidebarItem from './sidebarItem/SidebarItem';
 import RadioInput from './radioInput/RadioInput';
 import CheckboxInput from './checkboxInput/CheckboxInput';
+import ShowMore from './../../showMore/ShowMore'
 
 
 const Sidebar = () => {
@@ -18,7 +19,7 @@ const Sidebar = () => {
         {/* Existence */}
 
         <SidebarItem title='Наличие'>
-          <form className={s.existenceList}>
+          <form className={s.list}>
             <RadioInput
               value={'inStock'}
               name={'existence1'}
@@ -35,27 +36,29 @@ const Sidebar = () => {
 
         {/* Novelty */}
 
-        <SidebarItem title='Новинки'>
-          <form className={s.existenceList}>
-            <RadioInput
-              value={'all'}
-              name={'novelty1'}
-              text={'Все'}
-                     />
+        <div className='radioBlock'>
+          <SidebarItem title='Новинки'>
+            <form className={s.list}>
+              <RadioInput
+                value={'all'}
+                name={'novelty1'}
+                text={'Все'}
+              />
 
-            <RadioInput
-              value={'novelty'}
-              name={'novelty2'}
-              text={'Новинки'}
-            />
+              <RadioInput
+                value={'novelty'}
+                name={'novelty2'}
+                text={'Новинки'}
+              />
 
-            <RadioInput
-              value={'stock'}
-              name={'novelty3'}
-              text={'Акции'}
-            />
-          </form>
-        </SidebarItem>
+              <RadioInput
+                value={'stock'}
+                name={'novelty3'}
+                text={'Акции'}
+              />
+            </form>
+          </SidebarItem>
+        </div>
 
         {/* Price */}
 
@@ -113,7 +116,7 @@ const Sidebar = () => {
         {/* Brand */}
 
         <SidebarItem title='Бренд'>
-          <form className={s.brandList} action="#">
+          <form className={s.list} action="#">
             <CheckboxInput
               value={'BRP'}
               name={'brand1'}
@@ -129,19 +132,21 @@ const Sidebar = () => {
               name={'brand3'}
               text={'Spark 3'} />
 
-            <button type='button'>Показать еще</button>
           </form>
+
+          <ShowMore />
+
         </SidebarItem>
 
         {/* Model */}
 
         <SidebarItem title='Модель'>
 
-          <form action="" method='get'>
+          <form action="#" method='get'>
             <input type="text" placeholder='Введите модель ' />
           </form>
 
-          <form action='' method='get'>
+          <form className={s.list} action='#' method='get'>
             <CheckboxInput
               value={'Sea-doo Spark 2'}
               name={'model1'}
@@ -163,7 +168,7 @@ const Sidebar = () => {
               text={'SeaDoo GTR 230'} />
           </form>
 
-          <button type='submit'>Показать еще</button>
+          <ShowMore />
 
         </SidebarItem>
 
@@ -182,31 +187,35 @@ const Sidebar = () => {
         {/* Country */}
 
         <SidebarItem title='Страны'>
-          <checkboxInput
-            value={'Russia'}
-            name={'country1'}
-            text={'Россия'}
-          />
 
-          <checkboxInput
-            value={'Germany'}
-            name={'country2'}
-            text={'Германия'}
-          />
+          <form className={s.list} action='#' method='get'>
+            <CheckboxInput
+              value={'Russia'}
+              name={'country1'}
+              text={'Россия'}
+            />
 
-          <checkboxInput
-            value={'China'}
-            name={'country3'}
-            text={'Китай'}
-          />
+            <CheckboxInput
+              value={'Germany'}
+              name={'country2'}
+              text={'Германия'}
+            />
 
-          <checkboxInput
-            value={'USA'}
-            name={'country4'}
-            text={'CША'}
-          />
+            <CheckboxInput
+              value={'China'}
+              name={'country3'}
+              text={'Китай'}
+            />
 
-          <button type='button'>Показать еще</button>
+            <CheckboxInput
+              value={'USA'}
+              name={'country4'}
+              text={'CША'}
+            />
+          </form>
+
+          <ShowMore />
+
         </SidebarItem>
 
 

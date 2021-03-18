@@ -1,0 +1,39 @@
+
+.checkboxInput{
+  display: inline-block;
+  margin: 0;
+  margin-right: 12px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
+   margin-left: 26px;
+}
+
+.checkStyle{
+  display: inline-block;
+  background-image: url(./../../../../assets/images/sidebar/input.svg);
+  width: 14px;
+  height: 14px;
+  position: absolute;
+ bottom: 2px;
+ margin-left: -26px;
+   }
+
+   .checkboxInput:checked + .checkStyle{
+     display: inline-block;
+     background-image: url('./../../../../assets/images/sidebar/checkbox_activ.svg');
+   }
+
+
+.checkboxText{
+ display: inline-block;
+   font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #2F3035;
+  margin-left: 26px;
+}
