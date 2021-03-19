@@ -1,9 +1,11 @@
 import s from './ThirdPage.module.scss';
 import BreadCrumbs from '../breadCrumbs/BreadCrumbs';
-import imagesBig from './../../assets/images/gidroCard/imagesBigGidro2.svg';
+import imagesBig from './../../assets/images/gidroCard/2.svg';
 import heart from './../../assets/images/heart.svg';
 import rating from './../../assets/images/gidroCard/Group.svg';
 import ShowMore from './../showMore/ShowMore'
+import SimpleRating from '../SimpleRating/SimpleRating';
+import TableCard from '../TableCard/TableCard';
 
 const ThirdPage = (props) => {
     return (
@@ -32,6 +34,10 @@ const ThirdPage = (props) => {
                         <ShowMore />
 
 
+
+                        <SimpleRating />
+<TableCard/>
+                        <ShowMore />
 
                     </div>
                 </div>
