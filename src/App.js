@@ -9,11 +9,11 @@ import ThirdPage from './components/thirdPage/ThirdPage';
 function App() {
   return ( 
     <div className="App" >
-      <HomePage/>
-      <Header/>
+      {/* <HomePage/> */}
+      {/* <Header/>
           <SecondPage/>
-      <Footer/>
-      <ThirdPage/>
+      <Footer/> */}
+      {/* <ThirdPage/> */}
     </div>
   );
 }

@@ -18,10 +18,11 @@ import iconMenu from './../../assets/images/gidroCard/menu_icon.svg';
 import iconBurger from './../../assets/images/gidroCard/burger_icon.svg';
 import s from './SecondPage.module.scss';
 
+
 const SecondPage = (props) => {
   return (
     <div className={s.secondPage}>
-      <BreadCrumbs />
+      <BreadCrumbs/>
       <h2 className={s.sortingTitle}> Гидроциклы </h2>
       <div className={s.sorting}>
         <div className={s.sortingLeft}>
