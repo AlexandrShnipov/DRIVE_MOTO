@@ -1,0 +1,40 @@
+.parametr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin-bottom: 26px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid #C4C4C4;
+
+}
+
+.parametrTitle {
+  margin: 0;
+  margin-left: 26px;
+  font-family: SF Pro Display;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #2F3035;
+}
+
+.parametrBlock {
+  border: none;
+  padding-left: 15px;
+  padding-right: 29px;
+  outline: transparent;
+  font-family: Barlow;
+    font-size: 14px;
+  line-height: 1.21;
+  color: #48494D;
+  cursor: pointer;
+  max-width: 68px;
+  height: 26px;
+  appearance: none;
+  background: url('./../../../../../assets/images/sidebar/arrow_top.svg') no-repeat top 8px left 44px;
+}
+
+.parametrItem {
+  cursor: pointer;
+}
