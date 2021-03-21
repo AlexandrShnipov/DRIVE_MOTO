@@ -1,13 +1,17 @@
 .header{
     margin: 0 auto;
+    font-family: SFProRegular;
+    font-style: normal;
+    font-weight: normal;
+    .headerTop {
+        margin: 0 auto;
+        width: 1170px;
+        height: 122px;
+        border: 1px solid rgb(196, 195, 195);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+    }
 }
 
-.headerTop {
-    margin: 0 auto;
-    width: 1170px;
-    height: 122px;
-    border: 1px solid rgb(196, 195, 195);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}

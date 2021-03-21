@@ -7,9 +7,12 @@ import cart from './../../../assets/images/cart.svg';
 const HeaderUserMenu = () => {
   return (
     <div className={s.headerUserMenu}> 
-      <a href="#"><Icon file={heart}/></a>
-      <a href="#"><Icon file={user}/></a>
-      <a href="#"><Icon file={cart}/></a>
+      <a className={s.headerUserMenuLink} href="#"><Icon file={heart}/></a>
+      <a className={s.headerUserMenuLink} href="#"><Icon file={user}/></a>
+      <div className={s.headerUserMenuBox}>
+        <a className={s.headerUserMenuLink} href="#"><Icon file={cart}/></a>
+        <span className={s.headerUserMenuCart}></span>
+      </div>
     </div>
   );
 }

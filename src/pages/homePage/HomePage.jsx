@@ -5,6 +5,7 @@ import SaleBanner from './saleBanner/SaleBanner';
 import CardSmall from './cardSmall/CardSmall';
 import Discounts from '../../components/discounts/Discounts';
 import Footer from '../../components/footer/Footer';
+import Search from '../../components/search/Search';
 
 import img1 from '../../assets/images/CFMOTO-X6-EPS_blue 1.svg';
 import img2 from '../../assets/images/jet_ski_PNG90 1.svg';
@@ -12,6 +13,8 @@ import img3 from '../../assets/images/boat_PNG36 1.svg';
 import img4 from '../../assets/images/rmvector551 1.svg';
 import img5 from '../../assets/images/2018-Maverick-X3-X-rc-TURBO.svg';
 import img6 from '../../assets/images/boot-motors.svg';
+import SearchBox from '../../components/searchBox/SearchBox';
+
 
 const HomePage = () => {
   const cards = [
@@ -58,6 +61,7 @@ const HomePage = () => {
           <SliderSpeed />
           <SaleBanner />
         </div>
+        <SearchBox/>
         <div className={s.homeBox}>{cardsList}</div>
         <Discounts />
       </div>
