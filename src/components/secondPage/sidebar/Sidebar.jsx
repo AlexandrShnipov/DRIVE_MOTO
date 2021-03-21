@@ -2,6 +2,7 @@ import s from './Sidebar.module.scss';
 import SidebarItem from './sidebarItem/SidebarItem';
 import RadioInput from './radioInput/RadioInput';
 import CheckboxInput from './checkboxInput/CheckboxInput';
+import DropDownLists from './dropDownLists/dropDownLists'
 import ShowMore from './../../showMore/ShowMore'
 
 
@@ -77,47 +78,11 @@ const Sidebar = () => {
     //     </form> */}
         </SidebarItem>
 
-        {/* Power */}
+        {/*DropDownLists*/}
 
-        {/* <div className='power parametr'>
-          <h3 className='powerTitle parametrTitle'>Мощность, л.с.</h3>
+        <DropDownLists/>
 
-          <select className='powerBlock parametrBlock' name='power'>
-            <option className='powerBlockItem' selected value="90">90</option>
-            <option className='powerBlockItem parametrItem' value="130">130</option>
-            <option className='powerBlockItem parametrItem' value="154">154</option>
-            <option className='powerBlockItem parametrItem' value="230">230</option>
-            <option className='powerBlockItem parametrItem' value="300">300</option>
-          </select>
-        </div> */}
-
-        {/* EnginePower */}
-
-        {/* <div className='enginePower parametr'>
-          <h3 className='enginePowerTitle parametrTitle'>Мощность двигателя, л.с.</h3>
-          <select className='enginePowerBlock parametrBlock' name='power'>
-            <option className='enginePowerItem parametrItem' selected value="90">90</option>
-            <option className='enginePowerItem parametrItem' value="130">130</option>
-            <option className='enginePowerItem parametrItem' value="154">154</option>
-            <option className='enginePowerItem parametrItem' value="230">230</option>
-            <option className='enginePowerItem parametrItem' value="300">300</option>
-          </select>
-        </div> */}
-
-        {/* Speed */}
-
-        {/* <div className='speed parametr'>
-          <h3 className='speedTitle parametrTitle'>Макс. скорость</h3>
-          <select className='speedBlock parametrBlock' name='speed'>
-            <option className='speedItem parametrItem' selected value="90">90</option>
-            <option className='speedItem parametrItem' value="130">130</option>
-            <option className='speedItem parametrItem' value="154">154</option>
-            <option className='speedItem parametrItem' value="230">230</option>
-            <option className='speedItem parametrItem' value="300">300</option>
-          </select>
-        </div> */}
-
-        {/* Brand */}
+              {/* Brand */}
 
         <SidebarItem title='Бренд'>
           <form className={s.brandList} action="#">
