@@ -1,3 +1,12 @@
-.app {
+.App {
     color: #2F3035;
+}
+
+a {
+    color:#2F3035;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
 }
