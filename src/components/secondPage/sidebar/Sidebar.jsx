@@ -4,6 +4,8 @@ import RadioInput from './radioInput/RadioInput';
 import CheckboxInput from './checkboxInput/CheckboxInput';
 import DropDownLists from './dropDownLists/dropDownLists'
 import ShowMore from './../../showMore/ShowMore'
+import Price from './price/Price'
+
 
 
 const Sidebar = () => {
@@ -68,14 +70,9 @@ const Sidebar = () => {
         {/* Price */}
 
         <SidebarItem title='Цена'>
-          {/* <form className='priceList parametrList'>
-    //       <input type='range' multiple min='1000' max='5000000' step='any'></input>
-        
-    //       <p className='selectionItem'> от <span className='selectionFrom'>100 000</span></p>
+      
+          <Price/>
           
-    //         <p className='selectionItem'>  до <span className='selectionBefore'>500 000</span></p>
-         
-    //     </form> */}
         </SidebarItem>
 
         {/*DropDownLists*/}

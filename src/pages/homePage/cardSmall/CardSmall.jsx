@@ -1,5 +1,6 @@
 import s from './CardSmall.module.scss';
-import {NavLink, BrowserRouter } from "react-router-dom";
+import { NavLink, BrowserRouter } from "react-router-dom";
+
 
 const CardSmall = ({title, img, url}) => {
   return (
