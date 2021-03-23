@@ -13,7 +13,7 @@ function App() {
       {/* <Header/>
           <SecondPage/>
       <Footer/> */}
-      {/* <ThirdPage/> */}
+      {/* <ThirdPage/>  */}
     </div>
   );
 }

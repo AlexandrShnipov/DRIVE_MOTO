@@ -4,7 +4,7 @@ import Breadcrumbs from '@material-ui/core/Breadcrumbs';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
-import s from './BreadCrumbs.module.scss';
+import './BreadCrumbs.scss';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -25,11 +25,11 @@ export default function CustomSeparator() {
   return (
     <div className={classes.root}>
       <Breadcrumbs separator={<NavigateNextIcon fontSize="small" />} aria-label="breadcrumb">
-        <Link className={s.link} color="blue" href="/" onClick={handleClick}>
+        <Link className="linkCrumbs" color="blue" href="/" onClick={handleClick}>
         Главная
         </Link>
-        <Typography className={s.link} color="white">Гидроциклы</Typography>
-        {/* <Link className={s.link} color="blue" href="/getting-started/installation/" onClick={handleClick}>
+        <Typography className="linkCrumbs" color="white">Гидроциклы</Typography>
+        {/* <Link className="linkCrumbs" color="blue" href="/getting-started/installation/" onClick={handleClick}>
         Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue Metallic
         </Link> */}
       </Breadcrumbs>
