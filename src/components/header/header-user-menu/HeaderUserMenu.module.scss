@@ -1,3 +1,21 @@
 .headerUserMenu {
     display: flex;
+    .headerUserMenuLink {
+    margin-right: 10px;
+    }
+    .headerUserMenuBox {
+        position: relative;
+        .headerUserMenuCart {
+            width: 20px;
+            height: 20px;
+            display: block;
+            background:  #1C62CD;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            position: absolute;
+        }
+    }
 }

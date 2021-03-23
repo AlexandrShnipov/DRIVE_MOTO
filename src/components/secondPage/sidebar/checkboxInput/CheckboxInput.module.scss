@@ -1,6 +1,6 @@
 
 .checkboxInput{
-  display: inline-block;
+  // display: inline-block;
   margin: 0;
   margin-right: 12px;
   width: 1px;
@@ -12,7 +12,7 @@
 }
 
 .checkStyle{
-  display: inline-block;
+  // display: inline-block;
   background-image: url(./../../../../assets/images/sidebar/input.svg);
   width: 14px;
   height: 14px;
@@ -28,7 +28,8 @@
 
 
 .checkboxText{
- display: inline-block;
+//  display: inline-block;
+position: relative;
    font-family: SF Pro Display;
   font-style: normal;
   font-weight: normal;
@@ -37,3 +38,4 @@
   color: #2F3035;
   margin-left: 26px;
 }
+

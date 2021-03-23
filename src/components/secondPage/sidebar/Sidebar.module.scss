@@ -1,3 +1,11 @@
+a{
+  cursor: pointer;
+}
+
+button{
+  cursor: pointer;
+}
+
 .sidebarLinks{
   display: flex;
   flex-wrap: wrap;
@@ -26,12 +34,109 @@
   color: #2F3035;
 }
 
-.list{
-  margin-bottom: 20px;
-  max-width: 246px;
+.radioList{
+  max-width: 232px;
 }
 
-.ButtonsFooter{
+.radioBlock{
+  display: flex;
+  justify-content: space-between;
+}
+
+.brandList{
+  max-width: 213px;
+  min-height: 34px;
+  margin-bottom: 18px;
+
+}
+
+.brandBlock{
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+  min-height: 49px;
+ }
+
+.modelList{
+  max-width: 270px;
+}
+
+ .modelSearchForm{
+margin-bottom: 20px;
+ }
+
+ .modelSearch{
+  padding-left: 20px;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  padding-right: 80px;
+   border: 1px solid #E0E0E0;
+   }
+
+ .modelSearch::placeholder{
+  font-family: SF Pro Display;
+    font-size: 12px;
+  line-height: 1.2;
+    color: #BDBEC2;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+   }
+
+   .checkboxBlock{
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 20px;
+     
+   }
+
+.checkboxBlock1{
+  display: flex;
+  flex-direction: column;
+  min-height: 50px;
+  justify-content: space-between;
+}
+
+.checkboxBlock2{
+  display: flex;
+  flex-direction: column;
+  min-height: 50px;
+  justify-content: space-between;
+}
+
+.promotionsBtnBlock{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 290px;  
+}
+
+.promotionsBtn{
+  padding: 7px 15px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.2;
+  background-color: #F0F0F4;
+  color: #C4C4C4;
+  border: none;
+}
+
+.promotionsBtnSale{
+  background-color: #1C62CD;
+  color: #ffff;
+}
+
+.promotionsBtnDealer{
+  background-color: #2F3035;
+  color: #ffff;
+}
+
+.countrylist{
+  max-width: 236px;
+}
+
+.buttonsFooter{
   display: flex;
   flex-direction: column;
   align-items: center;

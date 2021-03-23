@@ -3,7 +3,7 @@ import location from './../../../assets/images/location.svg'
 
 const HeaderLocation = () =>{
   return (
-    <div className={s.header-location}>
+    <div className={s.headerLocation}>
       <img src={location} alt=""/>
       <span>Москва,  ул. Науки  25</span>
     </div>

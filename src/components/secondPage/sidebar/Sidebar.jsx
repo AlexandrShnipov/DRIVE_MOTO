@@ -2,7 +2,10 @@ import s from './Sidebar.module.scss';
 import SidebarItem from './sidebarItem/SidebarItem';
 import RadioInput from './radioInput/RadioInput';
 import CheckboxInput from './checkboxInput/CheckboxInput';
+import DropDownLists from './dropDownLists/dropDownLists'
 import ShowMore from './../../showMore/ShowMore'
+import Price from './price/Price'
+
 
 
 const Sidebar = () => {
@@ -19,30 +22,33 @@ const Sidebar = () => {
         {/* Existence */}
 
         <SidebarItem title='Наличие'>
-          <form className={s.list}>
-            <RadioInput
-              value={'inStock'}
-              name={'existence1'}
-              text={'В наличие'}
-            />
+          <form className={s.radioList}>
+            <div className={s.radioBlock}>
+              <RadioInput
+                value={'inStock'}
+                name={'existence1'}
+                text={'В наличие'}
+              />
 
-            <RadioInput
-              value={'order'}
-              name={'existence2'}
-              text={'Под заказ'}
-            />
+              <RadioInput
+                value={'order'}
+                name={'existence2'}
+                text={'Под заказ'}
+              />
+            </div>
           </form>
         </SidebarItem>
 
         {/* Novelty */}
 
-        <div className='radioBlock'>
-          <SidebarItem title='Новинки'>
-            <form className={s.list}>
+        <SidebarItem title='Новинки'>
+          <form className={s.radioList}>
+            <div className={s.radioBlock}>
               <RadioInput
                 value={'all'}
                 name={'novelty1'}
                 text={'Все'}
+                checked={'checked'}
               />
 
               <RadioInput
@@ -56,82 +62,53 @@ const Sidebar = () => {
                 name={'novelty3'}
                 text={'Акции'}
               />
-            </form>
-          </SidebarItem>
-        </div>
+            </div>
+          </form>
+        </SidebarItem>
+
 
         {/* Price */}
 
         <SidebarItem title='Цена'>
-          {/* <form className='priceList parametrList'>
-    //       <input type='range' multiple min='1000' max='5000000' step='any'></input>
-        
-    //       <p className='selectionItem'> от <span className='selectionFrom'>100 000</span></p>
+      
+          <Price/>
           
-    //         <p className='selectionItem'>  до <span className='selectionBefore'>500 000</span></p>
-         
-    //     </form> */}
         </SidebarItem>
 
-        {/* Power */}
+        {/*DropDownLists*/}
 
-        {/* <div className='power parametr'>
-          <h3 className='powerTitle parametrTitle'>Мощность, л.с.</h3>
+        <DropDownLists/>
 
-          <select className='powerBlock parametrBlock' name='power'>
-            <option className='powerBlockItem' selected value="90">90</option>
-            <option className='powerBlockItem parametrItem' value="130">130</option>
-            <option className='powerBlockItem parametrItem' value="154">154</option>
-            <option className='powerBlockItem parametrItem' value="230">230</option>
-            <option className='powerBlockItem parametrItem' value="300">300</option>
-          </select>
-        </div> */}
-
-        {/* EnginePower */}
-
-        {/* <div className='enginePower parametr'>
-          <h3 className='enginePowerTitle parametrTitle'>Мощность двигателя, л.с.</h3>
-          <select className='enginePowerBlock parametrBlock' name='power'>
-            <option className='enginePowerItem parametrItem' selected value="90">90</option>
-            <option className='enginePowerItem parametrItem' value="130">130</option>
-            <option className='enginePowerItem parametrItem' value="154">154</option>
-            <option className='enginePowerItem parametrItem' value="230">230</option>
-            <option className='enginePowerItem parametrItem' value="300">300</option>
-          </select>
-        </div> */}
-
-        {/* Speed */}
-
-        {/* <div className='speed parametr'>
-          <h3 className='speedTitle parametrTitle'>Макс. скорость</h3>
-          <select className='speedBlock parametrBlock' name='speed'>
-            <option className='speedItem parametrItem' selected value="90">90</option>
-            <option className='speedItem parametrItem' value="130">130</option>
-            <option className='speedItem parametrItem' value="154">154</option>
-            <option className='speedItem parametrItem' value="230">230</option>
-            <option className='speedItem parametrItem' value="300">300</option>
-          </select>
-        </div> */}
-
-        {/* Brand */}
+              {/* Brand */}
 
         <SidebarItem title='Бренд'>
-          <form className={s.list} action="#">
-            <CheckboxInput
-              value={'BRP'}
-              name={'brand1'}
-              text={'BRP'} />
+          <form className={s.brandList} action="#">
+            <div className={s.checkboxBlock}>
+              <div className={s.checkboxBlock1}>
+                <CheckboxInput
+                  value={'BRP'}
+                  name={'brand1'}
+                  text={'BRP'}
+                  checked={'checked'}
+                />
 
-            <CheckboxInput
-              value={'Spark 2'}
-              name={'brand2'}
-              text={'Spark 2'} />
+                <CheckboxInput
+                  value={'Spark 3'}
+                  name={'brand3'}
+                  text={'Spark 3'}
+                />
+              </div>
 
-            <CheckboxInput
-              value={'Spark 3'}
-              name={'brand3'}
-              text={'Spark 3'} />
+              <div className={s.checkboxBlock2}>
+                <CheckboxInput
+                  value={'Spark 2'}
+                  name={'brand2'}
+                  text={'Spark 2'}
+                  checked={'checked'}
+                />
+              </div>
 
+            </div>
           </form>
 
           <ShowMore />
@@ -142,30 +119,41 @@ const Sidebar = () => {
 
         <SidebarItem title='Модель'>
 
-          <form action="#" method='get'>
-            <input type="text" placeholder='Введите модель ' />
+          <form className={s.modelSearchForm} action="#" method='get'>
+            <input className={s.modelSearch} type="text" placeholder='Введите модель ' />
           </form>
 
-          <form className={s.list} action='#' method='get'>
-            <CheckboxInput
-              value={'Sea-doo Spark 2'}
-              name={'model1'}
-              text={'Sea-doo Spark 2'} />
+          <form className={s.modelList} action='#' method='get'>
+            <div className=
+              {s.checkboxBlock}>
+              <div className={s.checkboxBlock1}>
+                <CheckboxInput
+                  value={'Sea-doo Spark 2'}
+                  name={'model1'}
+                  text={'Sea-doo Spark 2'}
+                  checked={'checked'}
+                />
 
-            <CheckboxInput
-              value={'SeaDoo Spark 90'}
-              name={'model2'}
-              text={'SeaDoo Spark 90'} />
+                <CheckboxInput
+                  value={'SeaDoo GTI 155'}
+                  name={'model3'}
+                  text={'SeaDoo GTI 155'} />
+              </div>
 
-            <CheckboxInput
-              value={'SeaDoo GTI 155'}
-              name={'model3'}
-              text={'SeaDoo GTI 155'} />
+              <div className={s.checkboxBlock2}>
+                <CheckboxInput
+                  value={'SeaDoo Spark 90'}
+                  name={'model2'}
+                  text={'SeaDoo Spark 90'}
+                  checked={'checked'}
+                />
 
-            <CheckboxInput
-              value={'SeaDoo GTR 230'}
-              name={'model4'}
-              text={'SeaDoo GTR 230'} />
+                <CheckboxInput
+                  value={'SeaDoo GTR 230'}
+                  name={'model4'}
+                  text={'SeaDoo GTR 230'} />
+              </div>
+            </div>
           </form>
 
           <ShowMore />
@@ -176,10 +164,10 @@ const Sidebar = () => {
 
         <SidebarItem title='Акции'>
           <div className={s.promotionsBtnBlock}>
-            <button className={s.promotionsBtn}>SALE</button>
-            <button className={s.promotionsBtn}>NEW</button>
-            <button className={s.promotionsBtn}>HIT</button>
-            <button className={s.promotionsBtn}>ДИЛЕР</button>
+            <button className={`${s.promotionsBtn} ${s.promotionsBtnSale}`}>SALE</button>
+            <button className={`${s.promotionsBtn} ${s.promotionsBtnNew}`}>NEW</button>
+            <button className={`${s.promotionsBtn} ${s.promotionsBtnHit}`}>HIT</button>
+            <button className={`${s.promotionsBtn} ${s.promotionsBtnDealer}`}>ДИЛЕР</button>
 
           </div>
         </SidebarItem>
@@ -188,30 +176,38 @@ const Sidebar = () => {
 
         <SidebarItem title='Страны'>
 
-          <form className={s.list} action='#' method='get'>
-            <CheckboxInput
-              value={'Russia'}
-              name={'country1'}
-              text={'Россия'}
-            />
-
-            <CheckboxInput
-              value={'Germany'}
-              name={'country2'}
-              text={'Германия'}
-            />
-
-            <CheckboxInput
-              value={'China'}
-              name={'country3'}
-              text={'Китай'}
-            />
-
-            <CheckboxInput
-              value={'USA'}
-              name={'country4'}
-              text={'CША'}
-            />
+          <form className={s.countrylist} action='#' method='get'>
+           <div className= {s.checkboxBlock}>
+            <div  className={s.checkboxBlock1}>
+                <CheckboxInput
+                  value={'Russia'}
+                  name={'country1'}
+                  text={'Россия'}
+                  checked={'checked'}
+                />
+    
+                <CheckboxInput
+                  value={'China'}
+                  name={'country3'}
+                  text={'Китай'}
+                />
+            </div>
+  
+            <div className={s.checkboxBlock2}>
+                <CheckboxInput
+                  value={'Germany'}
+                  name={'country2'}
+                  text={'Германия'}
+                  checked={'checked'}
+                />
+    
+                <CheckboxInput
+                  value={'USA'}
+                  name={'country4'}
+                  text={'CША'}
+                />
+            </div>
+           </div>
           </form>
 
           <ShowMore />
@@ -219,7 +215,7 @@ const Sidebar = () => {
         </SidebarItem>
 
 
-        <div className={s.ButtonsFooter}>
+        <div className={s.buttonsFooter}>
           <button className={`${s.btnSelect} ${s.btnFooter}`} type='submit'>
             <span className={s.btnSelectText}> ВЫБРАТЬ</span>
           </button>

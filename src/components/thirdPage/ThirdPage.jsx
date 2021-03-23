@@ -11,6 +11,11 @@ const ThirdPage = (props) => {
     return (
         <div className={s.thirdPage}>
             <BreadCrumbs />
+            <li className={s.breadCrumbsList}>
+                <a className={s.breadCrumbsLink} href="#">
+                    Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue Metallic
+        </a>
+            </li>
             <div className={s.bigCard}>
                 <div className={s.blockLeft}>
                     <span className={s.sale}>SALE</span>
@@ -25,6 +30,11 @@ const ThirdPage = (props) => {
                     <div>
                         <img className={s.imgHeart} src={heart} />
                         <img className={s.imgRating} src={rating} />
+
+                        <ShowMore />
+
+
+
                         <SimpleRating />
 <TableCard/>
                         <ShowMore />
