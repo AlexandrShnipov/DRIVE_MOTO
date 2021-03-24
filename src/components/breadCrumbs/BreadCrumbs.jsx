@@ -25,11 +25,11 @@ export default function CustomSeparator() {
   return (
     <div className={classes.root}>
       <Breadcrumbs separator={<NavigateNextIcon fontSize="small" />} aria-label="breadcrumb">
-        <Link className="linkCrumbs" color="blue" href="/" onClick={handleClick}>
+        <Link className="linkCrumbs" color="" href="/" onClick={handleClick}>
         Главная
         </Link>
-        <Typography className="linkCrumbs" color="white">Гидроциклы</Typography>
-        {/* <Link className="linkCrumbs" color="blue" href="/getting-started/installation/" onClick={handleClick}>
+        <Typography className="linkCrumbs" color="">Гидроциклы</Typography>
+        {/* <Link className="linkCrumbs" color="" href="/getting-started/installation/" onClick={handleClick}>
         Гидроцикл BRP SeaDoo GTI 155hp SE Long Blue Metallic
         </Link> */}
       </Breadcrumbs>

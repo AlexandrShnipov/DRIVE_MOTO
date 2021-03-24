@@ -11,13 +11,15 @@ import HeaderUserMenu from "./header-user-menu/HeaderUserMenu";
 const Header = () => {
   return (
     <div className={s.header}>
-      <div className={s.headerTop}>
-        <HeaderMenu/>
-        <HeaderLogo/>
-        <HeaderLocation/>
-        <HeaderUserMenu/>
+      <div className={s.container}>
+        <div className={s.headerTop}>
+          <HeaderMenu/>
+          <HeaderLogo/>
+          <HeaderLocation/>
+          <HeaderUserMenu/>
+        </div>
+        <HeaderNavBar/>
       </div>
-      <HeaderNavBar/>
     </div>
   );
 }

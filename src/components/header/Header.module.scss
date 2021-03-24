@@ -1,11 +1,16 @@
-.header{
-    margin: 0 auto;
+@import './../../sass/_vars.scss';
+
+
+.header {
     font-family: SFProRegular;
     font-style: normal;
     font-weight: normal;
+
+    .container {
+        @extend %container;
+    }
+
     .headerTop {
-        margin: 0 auto;
-        width: 1170px;
         height: 122px;
         border: 1px solid rgb(196, 195, 195);
         display: flex;
@@ -14,4 +19,3 @@
         font-weight: bold;
     }
 }
-

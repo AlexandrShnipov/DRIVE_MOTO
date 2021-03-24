@@ -2,16 +2,13 @@
   border: 1px solid #CDCDCD;
   box-sizing: border-box;
   border-radius: 3px;
-  flex-basis: 31%;
+  flex-basis: 30%;
   min-height: 403px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
-}
-
-.Card:nth-child(-n+9) {
   margin-bottom: 30px;
 }
 
@@ -23,7 +20,7 @@
   font-size: 12px;
   position: absolute;
   right: 65%;
-  top: 0%;
+  top: 0;
   transform: translate(-50%);
   display: flex;
   justify-content: center;
@@ -35,9 +32,10 @@
   height: 190px;
 }
 
-.productNames {
+.productTitle {
   font-size: 18px;
   text-align: center;
+  font-family: 'SFProRegular', sans-serif;
 }
 
 .priceProducts {
