@@ -221,13 +221,12 @@ const Sidebar = () => {
           </button>
 
           <button className={`${s.btnMore} ${s.btnFooter}`}
-            type='button'>
+                  type='button'>
             <span className={s.btnMoreText}>Дополнительные параметры</span>
           </button>
 
-          <button className=
-            {`${s.btnReset} ${s.btnFooter}`}
-            type='reset'>
+          <button className={`${s.btnReset} ${s.btnFooter}`}
+                  type='reset'>
             <span className={s.btnResetText}>Сбросить фильтр</span>
           </button>
         </div>

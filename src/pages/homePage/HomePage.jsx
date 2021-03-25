@@ -56,8 +56,7 @@ const HomePage = () => {
 
   return (
     <div className={s.homePage}>
-      <div className={s.homeWrap}>
-        <Header />
+      <div className={s.container}>
         <div className={s.homeWrapper}>
           <SliderSpeed />
           <SaleBanner />
@@ -69,7 +68,6 @@ const HomePage = () => {
         </div>
         <Discounts />
       </div>
-      <Footer />
     </div>
   );
 }

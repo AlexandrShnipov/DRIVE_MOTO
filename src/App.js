@@ -1,19 +1,19 @@
 import React from 'react';
-import './App.css';
-import SecondPage from './components/secondPage/SecondPage';
+import './App.scss';
+import CatalogPage from './components/catalogPage/CatalogPage';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import HomePage from './pages/homePage/HomePage';
-import ThirdPage from './components/thirdPage/ThirdPage';
+import ProductPage from './components/productPage/ProductPage';
 
 function App() {
   return ( 
     <div className="App" >
-      <HomePage/>
       <Header/>
-          <SecondPage/>
+      {/* <HomePage/> */}
+      <CatalogPage/>
+      {/* <ProductPage/>  */}
       <Footer/>
-       <ThirdPage/>
     </div>
   );
 }
