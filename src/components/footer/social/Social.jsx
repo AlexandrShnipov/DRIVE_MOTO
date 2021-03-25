@@ -8,10 +8,10 @@ const Social = () => {
   return (
     <div className={s.social}>
       <ul className={s.socialItems}>
-        <li><a href="#"><img src={Instagram} alt=""/></a></li>
-        <li><a href="#"><img src={VK} alt=""/></a></li>
-        <li><a href="#"><img src={Facebook} alt=""/></a></li>
-        <li><a href="#"><img src={Youtube} alt=""/></a></li>
+        <li className={s.socialItemsLink}><a href="#"><img src={Instagram} alt=""/></a></li>
+        <li className={s.socialItemsLink}><a href="#"><img src={VK} alt=""/></a></li>
+        <li className={s.socialItemsLink}><a href="#"><img src={Facebook} alt=""/></a></li>
+        <li className={s.socialItemsLink}><a href="#"><img src={Youtube} alt=""/></a></li>
       </ul>
     </div>
   );
