@@ -7,13 +7,13 @@ import HomePage from './pages/homePage/HomePage';
 import ThirdPage from './components/thirdPage/ThirdPage';
 
 function App() {
-  return ( 
+  return (
     <div className="App" >
-      <HomePage/>
-      <Header/>
-          <SecondPage/>
-      <Footer/>
-       <ThirdPage/>
+      <HomePage />
+      <Header />
+      <SecondPage />
+      <Footer />
+      <ThirdPage />
     </div>
   );
 }

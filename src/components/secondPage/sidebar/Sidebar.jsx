@@ -26,13 +26,13 @@ const Sidebar = () => {
             <div className={s.radioBlock}>
               <RadioInput
                 value={'inStock'}
-                name={'existence1'}
+                name={'existence'}
                 text={'В наличие'}
               />
 
               <RadioInput
                 value={'order'}
-                name={'existence2'}
+                name={'existence'}
                 text={'Под заказ'}
               />
             </div>
@@ -46,20 +46,20 @@ const Sidebar = () => {
             <div className={s.radioBlock}>
               <RadioInput
                 value={'all'}
-                name={'novelty1'}
+                name={'novelty'}
                 text={'Все'}
                 checked={'checked'}
               />
 
               <RadioInput
                 value={'novelty'}
-                name={'novelty2'}
+                name={'novelty'}
                 text={'Новинки'}
               />
 
               <RadioInput
                 value={'stock'}
-                name={'novelty3'}
+                name={'novelty'}
                 text={'Акции'}
               />
             </div>
