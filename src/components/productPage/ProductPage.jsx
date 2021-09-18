@@ -4,8 +4,8 @@ import imagesBig from './../../assets/images/gidroCard/2.svg';
 import heart from './../../assets/images/heart.svg';
 import rating from './../../assets/images/gidroCard/Group.svg';
 import ShowMore from '../showMore/ShowMore'
-import SimpleRating from '../simpleRating/SimpleRating';
-import TableCard from '../tableCard/TableCard';
+import SimpleRating from '../SimpleRating/SimpleRating';
+import TableCard from '../TableCard/TableCard';
 
 const ProductPage = (props) => {
     return (

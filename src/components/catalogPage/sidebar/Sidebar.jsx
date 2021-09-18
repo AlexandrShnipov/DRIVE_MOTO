@@ -70,16 +70,16 @@ const Sidebar = () => {
         {/* Price */}
 
         <SidebarItem title='Цена'>
-      
-          <Price/>
-          
+
+          <Price />
+
         </SidebarItem>
 
         {/*DropDownLists*/}
 
-        <DropDownLists/>
+        <DropDownLists />
 
-              {/* Brand */}
+        {/* Brand */}
 
         <SidebarItem title='Бренд'>
           <form className={s.brandList} action="#">
@@ -89,7 +89,7 @@ const Sidebar = () => {
                   value={'BRP'}
                   name={'brand1'}
                   text={'BRP'}
-                  checked={'checked'}
+
                 />
 
                 <CheckboxInput
@@ -104,7 +104,7 @@ const Sidebar = () => {
                   value={'Spark 2'}
                   name={'brand2'}
                   text={'Spark 2'}
-                  checked={'checked'}
+
                 />
               </div>
 
@@ -131,7 +131,6 @@ const Sidebar = () => {
                   value={'Sea-doo Spark 2'}
                   name={'model1'}
                   text={'Sea-doo Spark 2'}
-                  checked={'checked'}
                 />
 
                 <CheckboxInput
@@ -145,7 +144,6 @@ const Sidebar = () => {
                   value={'SeaDoo Spark 90'}
                   name={'model2'}
                   text={'SeaDoo Spark 90'}
-                  checked={'checked'}
                 />
 
                 <CheckboxInput
@@ -177,37 +175,37 @@ const Sidebar = () => {
         <SidebarItem title='Страны'>
 
           <form className={s.countrylist} action='#' method='get'>
-           <div className= {s.checkboxBlock}>
-            <div  className={s.checkboxBlock1}>
+            <div className={s.checkboxBlock}>
+              <div className={s.checkboxBlock1}>
                 <CheckboxInput
                   value={'Russia'}
                   name={'country1'}
                   text={'Россия'}
                   checked={'checked'}
                 />
-    
+
                 <CheckboxInput
                   value={'China'}
                   name={'country3'}
                   text={'Китай'}
                 />
-            </div>
-  
-            <div className={s.checkboxBlock2}>
+              </div>
+
+              <div className={s.checkboxBlock2}>
                 <CheckboxInput
                   value={'Germany'}
                   name={'country2'}
                   text={'Германия'}
                   checked={'checked'}
                 />
-    
+
                 <CheckboxInput
                   value={'USA'}
                   name={'country4'}
                   text={'CША'}
                 />
+              </div>
             </div>
-           </div>
           </form>
 
           <ShowMore />
@@ -221,12 +219,12 @@ const Sidebar = () => {
           </button>
 
           <button className={`${s.btnMore} ${s.btnFooter}`}
-                  type='button'>
+            type='button'>
             <span className={s.btnMoreText}>Дополнительные параметры</span>
           </button>
 
           <button className={`${s.btnReset} ${s.btnFooter}`}
-                  type='reset'>
+            type='reset'>
             <span className={s.btnResetText}>Сбросить фильтр</span>
           </button>
         </div>
