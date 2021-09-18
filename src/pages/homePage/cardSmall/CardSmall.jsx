@@ -8,7 +8,7 @@ const CardSmall = ({title, img, url}) => {
     <div className={s.cardSmall}>
       <div className={s.cardSmallBox}>
         <h3 className={s.cardSmallTitle}>{title}</h3>
-        <NavLink className={s.cardSmallLink} to={'/'}>Подробнее</NavLink>
+        <NavLink className={s.cardSmallLink} to={'/'}>Подробнее></NavLink>
       </div>
       <img className={s.cardImg} src={img} alt={title} />
     </div>

@@ -42,7 +42,7 @@ const Footer = () => {
       <Social/>
       </div>
       <div className={s.footerDown}>
-        <span>Договор оферты</span>
+        <span className={s.footerDownText}>Договор оферты</span>
         <span>Политика обработки персональных данных</span>
       </div>
     </div>

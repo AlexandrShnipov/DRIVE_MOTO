@@ -1,7 +1,13 @@
+.social {
+    align-self: center;
+}
 .socialItems {
     display: flex;
     li {
         list-style-type: none;
+    }
+    .socialItemsLink {
+        margin-right: 30px;
     }
 }
 

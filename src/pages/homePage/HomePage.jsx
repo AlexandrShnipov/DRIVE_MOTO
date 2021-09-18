@@ -14,6 +14,7 @@ import img4 from '../../assets/images/rmvector551 1.svg';
 import img5 from '../../assets/images/2018-Maverick-X3-X-rc-TURBO.svg';
 import img6 from '../../assets/images/boot-motors.svg';
 import SearchBox from '../../components/searchBox/SearchBox';
+import Carousel from '../../components/carousel/Carousel';
 
 
 const HomePage = () => {
@@ -55,17 +56,18 @@ const HomePage = () => {
 
   return (
     <div className={s.homePage}>
-      <div className={s.homeWrap}>
-        <Header />
+      <div className={s.container}>
         <div className={s.homeWrapper}>
           <SliderSpeed />
           <SaleBanner />
         </div>
         <SearchBox/>
         <div className={s.homeBox}>{cardsList}</div>
+        <div className={s.carousel}>
+          <Carousel/>
+        </div>
         <Discounts />
       </div>
-      <Footer />
     </div>
   );
 }

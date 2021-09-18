@@ -8,9 +8,12 @@
         display: flex;
         justify-content: space-between;
         list-style-type: none;
-        a {
-            text-decoration: none;
-        }
+    }
+    .headerNavBarItem:hover {
+        font-weight: 600;
+        border-bottom: 3px solid  #1C62CD;
+
+
     }
 }
 

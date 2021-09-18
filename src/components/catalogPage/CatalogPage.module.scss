@@ -1,11 +1,12 @@
-.secondPage {
-    margin: 0 auto;
-    width: 1170px;
-    margin-bottom: 208px;
+@import './../../sass/_vars.scss';
+
+
+.catalogPage {
+    position: relative;
 }
 
-.categoriesProducts {
-    display: flex;
+.container {
+    @extend %container;
 }
 
 .sortingTitle {
@@ -29,15 +30,15 @@
 
 .sortingRight {
     display: flex;
-}
 
-.sortingRightSelect {
+    .sortingRightSelect {
     font-size: 14px;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-right: 14px;
     padding-left: 20px;
     margin-right: 33px;
+    }
 }
 
 .iconMenu {
@@ -48,32 +49,27 @@
     display: flex;
 }
 
-.coptions {
-    width: 26%;
-}
-
 .cards {
-    position: relative;
     display: flex;
     flex-wrap: wrap;
-    width: 74%;
     justify-content: space-between;
+    margin-bottom: 170px;
 }
 
-.secondPagePagination {
+.pagination {
     position: absolute;
-    right: 47%;
-    top: 73%;
+    right: 29%;
+    bottom: -32%;
     transform: translate(-50%);
 }
 
-.secondPagePagination a {
+.pagination a {
     color: #C4C4C4;
     padding: 8px 16px;
     text-decoration: none;
-}
+    }
 
-.secondPagePagination a.active {
+.pagination a.active {
     border: 2px solid #1C62CD;
     color: #1C62CD;
 }

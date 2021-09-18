@@ -1,18 +1,27 @@
 import React from 'react';
 import Rating from '@material-ui/lab/Rating';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
-import s from './SimpleRating.css';
+import { withStyles } from '@material-ui/core/styles';
+import StarBorderIcon from '@material-ui/icons/StarBorder';
 
+const StyledRating = withStyles({
+    iconFilled: {
+        color: '#1C62CD',
+    },
+    iconHover: {
+        color: '#1C62CD',
+    },
+})(Rating);
 
-export default function SimpleRating() {
-    const [value, setValue] = React.useState(4);
-
+export default function CustomizeRatings() {
     return (
         <div>
-            <Box component="fieldset" mb={3} borderColor="transparent">
-                <Rating className={s.ratingBlue} name="read-only" value={value} readOnly/>
-            </Box>
+            <StyledRating
+                name="customized-empty"
+                defaultValue={4}
+                precision={0.5}
+                emptyIcon={<StarBorderIcon fontSize="inherit"
+                />}
+            />
         </div>
     );
 }
